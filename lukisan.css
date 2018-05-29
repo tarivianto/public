@@ -108,6 +108,7 @@ p {
 .bh1 {
         max-width:100px;
 	text-align:center;
+	margin:0 auto;
 }
 .bh2 {
         max-width:0;
