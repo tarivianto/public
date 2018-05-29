@@ -125,6 +125,20 @@ p {
 .bh5 {
         width:29.75%;
 }
+
+
+
+.bloko {
+	max-width:670;
+	padding:10px;
+	margin-bottom:20px;
+	color:rgb(114,114,114);
+}
+
+.bloko1 { background:rgba(255,255,255,0.1)}
+.bloko2 { background:rgba(255,255,255,0.15)}
+
+
 .bottom {
          background:rgba(255,255,255,0.15);
          padding:20px 0;
