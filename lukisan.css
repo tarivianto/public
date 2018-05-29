@@ -77,7 +77,7 @@ p {
 .blokh {
         display:flex;
                
-               justify-content:flex-start;
+               justify-content:space-evenly;
                max-width:690px;
                color:rgba(255,255,255,0.5);
                padding:10px;
@@ -111,7 +111,7 @@ p {
         
 }
 .bh3 {
-        max-width:580px;
+        max-width:130px;
         
 }
 .bh4 {
