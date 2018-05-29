@@ -75,14 +75,14 @@ p {
 }
 
 .blokh {
-        display:flex;
+       
                
-               justify-content:space-evenly;
-               max-width:690px;
+            
+               max-width:220px;
                color:rgba(255,255,255,0.5);
                padding:10px;
-               margin-top:15px;
-               flex-wrap:wrAp;
+       
+            
                
              
 }
