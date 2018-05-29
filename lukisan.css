@@ -129,14 +129,14 @@ p {
 
 
 .bloko {
-	max-width:670;
+	max-width:650;
 	padding:10px;
-	margin-bottom:20px;
-	color:rgb(114,114,114);
+	margin-bottom:0 auto;
+	color:rgb(255,255,255,0.5);
 }
 
-.bloko1 { background:rgba(255,255,255,0.1)}
-.bloko2 { background:rgba(255,255,255,0.15)}
+.bloko1 { background:rgba(255,255,255,0.1);margin-bottom:20px;}
+.bloko2 { background:rgba(255,255,255,0.15);margin-bottom:20px;}
 
 
 .bottom {
