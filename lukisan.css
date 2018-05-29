@@ -78,10 +78,10 @@ p {
        
                
             
-               max-width:220px;
+               max-width:210px;
                color:rgba(255,255,255,0.5);
                padding:10px;
-	display:block;
+	
        
             
                
@@ -102,17 +102,19 @@ p {
 
 .blokh h1, .blokh h2, .blokh h3, .blokh h4 {
         color:#ffffff !important;
+	display:block;
 }
 
 .bh1 {
         max-width:100px;
+	text-align:center;
 }
 .bh2 {
         max-width:0;
         
 }
 .bh3 {
-        max-width:130px;
+        max-width:100%;
         
 }
 .bh4 {
