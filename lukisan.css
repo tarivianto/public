@@ -6,10 +6,7 @@ body {
         color:rgb(114,114,114);
         font-family:'open sans', sans-serif;
 }
-#container{
-    min-height:100%;
-    position:relative;
-}
+
 h1, h2 {
         color:#ffffff;
 }
@@ -17,6 +14,7 @@ h1,h2,h3, h4 {
         padding:0;
         margin:0;
        font-family: 'Oswald', sans-serif !important;
+	font-weight:normal !important;
 }
 h1 {
         font-size:30px;
