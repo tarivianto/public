@@ -129,19 +129,13 @@ p {
               
 }
 	
+	.bloka img {
+		width:100%;
+	}	
 	
-	
 
 
-.bloko {
-	max-width:650px;
-	padding:10px;
-	margin:0 auto;
-	color:rgb(255,255,255,0.5);
-}
 
-.bloko1 { background:rgba(255,255,255,0.1);margin-bottom:20px;}
-.bloko2 { background:rgba(255,255,255,0.15);margin-bottom:20px;}
 
 
 .bottom {
