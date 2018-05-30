@@ -159,7 +159,7 @@ p {
 	display:flex;
 	flex-wrap:wrap;
 	  justify-content:flex-start;
-        max-width:1140;
+        max-width:100%;
         margin:0 auto;
         padding:0 5px;   
         
