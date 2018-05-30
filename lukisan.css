@@ -42,7 +42,7 @@ p {
 .content {
         max-width:690px;
         padding:100px 0 80px 0;
-        
+        margin:0 auto;
      
         min-height:100vmin;
         position:relative;
