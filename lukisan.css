@@ -186,6 +186,8 @@ a.wa {
         color:rgb(31,31,31);
         text-decoration:none;
         padding:10px;
+	text-transform:uppercase !important;
+	font-family:'oswald',sans-serif !important;
       
 }
 a.wa:hover {
