@@ -216,7 +216,7 @@ a.wa:hover {
 
 @media only screen and (max-width: 500px) {
 
-	.blokh { 
+	.blokh, .bloka { 
 		width:100%;
 	}
 }
