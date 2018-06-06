@@ -193,6 +193,12 @@ p {
         margin-bottom:19px;
 }
 
+.oc {
+	display:grid;
+	grid-template-columns:38.4% 57.6%;
+	grid-gap:4%;
+}
+
 .oi {
         padding:1em;
         border:1px solid #dadada;
@@ -215,7 +221,7 @@ p {
 
 
 @media (max-width: 800px) {
-        .top, .portfolio, .wwd, .pi, .order {
+        .top, .portfolio, .wwd, .pi, .order, .oc {
            grid-template-columns:100% !important; 
             grid-template-rows:auto;   
         }
