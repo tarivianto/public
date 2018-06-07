@@ -263,10 +263,12 @@ p {
 
 
 
-.bottom, .bawah {
+.bottom {
+	display:grid;
+	grid-template-columns:100%;
             background:rgba(51,51,51,0.95);
          padding:20px 0;
-         width:100%;
+        
           position:relative;
             z-index:2;
        
@@ -279,6 +281,14 @@ p {
 .bottom a, .bottom a:hover {
         
         text-decoration:none;}
+
+
+.bot1 {
+	display:grid;
+	grid-template-columns:20% 20% 20% 40%;
+	padding:0 4%;
+}
+
 
 .bottombar {
 	display:flex;
