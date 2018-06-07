@@ -246,7 +246,7 @@ p {
 
 
 @media (max-width: 800px) {
-        .top, .portfolio, .wwd, .pi, .order, .oc, .ci {
+        .top, .portfolio, .wwd, .pi, .order, .oc, .ci, .bot1 {
            grid-template-columns:100% !important; 
             grid-template-rows:auto;   
         }
