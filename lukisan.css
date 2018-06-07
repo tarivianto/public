@@ -214,7 +214,12 @@ p {
 .oi p {
         display:inline-block;
         width:90%;
+	
   
+}
+
+.oi span, .oi p {
+	color:#333333;
 }
 
 
