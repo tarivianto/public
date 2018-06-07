@@ -81,7 +81,7 @@ p {
 }
 
 
-.welcome h1, .welcome p, .about h1 {
+.welcome h1, .welcome p, .about h1, .ch h1 {
         color:#333333;
 }
 
@@ -94,7 +94,7 @@ p {
 
 .wwd {
         display:grid;
-        grid-template-columns:repeat(4,auto);
+        grid-template-columns:repeat(3,auto);
         padding:0;
            background:#ffcd2e;
       width:100%;
@@ -223,8 +223,28 @@ p {
 }
 
 
+.cetak {
+	  background:rgba(255,255,255,0.9);
+	color:#333333;
+	position:relative;
+	z-index:2;
+	padding:50px 0;
+}
+.ch {
+	display:grid;
+	grid-template-columns:100%;
+}
+.ci {
+	display:grid;
+	grid-template-columns:repeat(3, auto);
+	padding:0 4%;
+	
+}
+
+
+
 @media (max-width: 800px) {
-        .top, .portfolio, .wwd, .pi, .order, .oc {
+        .top, .portfolio, .wwd, .pi, .order, .oc, .ci {
            grid-template-columns:100% !important; 
             grid-template-rows:auto;   
         }
