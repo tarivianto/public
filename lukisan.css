@@ -87,7 +87,7 @@ p {
 
 @media only screen and (max-width: 500px){
         .welcome {
-                margin-top:30vh;
+                margin-top:35vh;
         }
 }
 
@@ -153,7 +153,7 @@ p {
         
 }
 .ph h1, .oh h1 {
-        color:#515151;
+         color:#333333;
 }
 .pi {
         display:grid;
