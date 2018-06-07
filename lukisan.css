@@ -238,7 +238,7 @@ p {
 }
 .ci {
 	display:grid;
-	grid-template-columns:92%;
+	grid-template-columns:100%;
 	padding:0 4%;
 	
 }
