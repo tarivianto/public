@@ -255,6 +255,10 @@ p {
 	grid-gap:4%;
 }
 
+.ac img {
+	width:100%;
+}
+
 .ai {
         padding:1em;
         border:1px solid #dadada;
