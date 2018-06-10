@@ -47,14 +47,7 @@ p {
         display:grid;
         grid-template-columns:auto;
         }
-.profil {
-        background:rgb(31,31,31);
-        color:rgba(255,255,255,0.5);
-}
-.w3-content {
-       
-     min-width:100%; 
-}
+
 
 
 .welcome {
@@ -70,7 +63,7 @@ p {
 .profil {
          display:grid;
         grid-template-columns:100%;
-        padding:30px 10px;
+        padding:30px 4%;
         background:rgba(255,255,255,0.9);
       
         z-index:2;
