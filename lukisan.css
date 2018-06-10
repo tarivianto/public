@@ -43,7 +43,7 @@ p {
         position:fixed;
         z-index:1;
         width:100%;
-        margin-top:44px;
+        margin-top:34px;
         display:grid;
         grid-template-columns:auto;
         }
@@ -62,7 +62,7 @@ p {
         grid-template-columns:100%;
         padding:30px 10px;
       
-        margin-top:72vh;   
+        margin-top:80vh;   
         z-index:2;
         position:relative;
         text-align:center;
