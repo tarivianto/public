@@ -85,7 +85,7 @@ p {
 }
 
 
-.welcome h1, .welcome p, .about h1, .ch h1, .profil h1, .profil p {
+.welcome p, .portfolio p, .order p, .cetak p, .profil p {
         color:#333333;
 }
 
@@ -151,14 +151,12 @@ p {
         margin-bottom:19px;
         
 }
-.ph2 {
-        grid-template-columns:100%;
-        margin-top:19px;
-        
-}
-.ph h1, .oh h1 {
+
+.welcome h1, .ph h1, .oh h1, .ch h1, .ah h1 {
          color:#333333;
 }
+
+
 .pi {
         display:grid;
         grid-gap:0;
