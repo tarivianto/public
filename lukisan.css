@@ -191,7 +191,8 @@ p {
         justify-content:space-evenly;
 }
 
-.oh {
+.oh {	
+	display:grid;
          grid-template-columns:100%;
         margin-bottom:19px;
 }
