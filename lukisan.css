@@ -48,7 +48,10 @@ p {
         grid-template-columns:auto;
         }
 
-
+.w3-content {
+       
+     min-width:100%; 
+}
 
 .welcome {
         display:grid;
