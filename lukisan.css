@@ -156,14 +156,14 @@ p {
 .wwd2 a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
-	background:#ffcd2e;
+	background:#313131;
 	color:#313131;
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
 }
 .wwd2 a.wwd2order:hover {
-	background:#515151;
+	background:#ffcd2e;
 	color:white;
 	transition: 0.8s;
 }
