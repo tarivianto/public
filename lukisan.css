@@ -3,7 +3,7 @@ html, body {
 }
 body {
         background:#ffffff;
-             color:#515151;
+             color:#333333;
         font-family:'open sans', sans-serif;   display:grid;
          
 }
@@ -157,7 +157,7 @@ p {
 .wwd2 a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
-	background:#313131;
+	background:#333333;
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:none;
@@ -165,7 +165,7 @@ p {
 }
 .wwd2 a.wwd2order:hover {
 	background:#ffcd2e;
-	color:#313131;
+	color:#333333;
 	transition: 0.8s;
 }
 
@@ -179,7 +179,7 @@ p {
        
 }
 .subtitle h1 {
-                color:#515151;
+                color:#333333;
 }
 .portfolio {
         display:grid;
