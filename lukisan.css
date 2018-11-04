@@ -165,6 +165,7 @@ p {
 .wwd2 a.wwd2order:hover {
 	background:#515151;
 	color:white;
+	transition: 0.8s;
 }
 
 
