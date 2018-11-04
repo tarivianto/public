@@ -253,7 +253,7 @@ p {
         padding:1em;
         border-bottom:1px solid #dadada;
         text-align:left;
-        margin-bottom:0.5em;
+        margin-bottom:0.3em;
        
 }
 .oi:last-child {
@@ -378,6 +378,11 @@ p {
 
 }
 
+@media (max-width: 800px) {
+	.order {
+		  padding:50px 4% 10px 4%;
+	}
+}
 
 
 
