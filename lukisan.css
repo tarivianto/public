@@ -162,6 +162,7 @@ p {
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
+	font-family:'oswald',sans-serif !important;
 }
 .wwd2 a.wwd2order:hover {
 	background:#ffcd2e;
