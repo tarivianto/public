@@ -262,7 +262,7 @@ p {
 .oi span {
         font-size:30px;
         vertical-align:top;
-        padding:-2% 2% 2% 2%;
+        padding:0 2% 2% 2%;
        width:8%;
         display:inline-block;
 }
