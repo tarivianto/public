@@ -227,7 +227,7 @@ p {
         display:grid;
         grid-template-columns:100%;
      grid-template-rows:auto;
-        padding:50px 4% 80px 4%;
+        padding:50px 4% 10px 4%;
      background:rgba(255,255,255,1);
       width:100%;
      
