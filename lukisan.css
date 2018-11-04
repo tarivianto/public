@@ -142,9 +142,9 @@ p {
         justify-content:space-around;
 }
 .wwd2 .boks {
-        padding:3em 0;
-        width:30%;
-	border:1px solid #333333;
+        padding:3em;
+        width:100%;
+	min-width:300px;
 }
 .wwd2 h3 {
         color:#333333;
