@@ -178,13 +178,17 @@ p {
         position:relative;
         text-align:center;
        color:#333333;
-        justify-content:space-around;
+        justify-content:space-evenly;
 }
 .wwd2 .boks {
         padding:3em;
     	width:300px;
 
 }
+@media (max-width: 800px)  {
+	.wwd2 .boks {margin:0 auto;text-align:center;}
+}
+
 .wwd2 h3 {
         color:#333333;
 }
