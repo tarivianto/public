@@ -185,14 +185,14 @@ p {
         position:relative;
         text-align:center;
        color:#333333;
-       justify-content:space-arround;
+       justify-content:space-around;
 	background:rgba(255,255,255,1) !important;
 	padding:40px 0!important;
 }
 .wwd3 .boks {
        
 	padding:1em!important;
-	width:300px;	
+	
         
 }
 .wwd3 h3.harga {
