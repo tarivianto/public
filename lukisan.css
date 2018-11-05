@@ -40,6 +40,10 @@ p {
         height:19px;
 }
 
+.subtitle {
+	font-family:'montserrat', sans-serif;color:#ffffff;'
+}
+
 .top {
         position:fixed;
         z-index:1;
