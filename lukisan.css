@@ -182,7 +182,7 @@ p {
 }
 .wwd2 .boks {
         padding:3em;
-    
+    	width:300px;
 
 }
 .wwd2 h3 {
@@ -197,7 +197,7 @@ p {
 .wwd2 a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
-	background:#333333;
+	background:#ffcd2e;
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:none;
@@ -205,8 +205,8 @@ p {
 	  font-family: 'open sans', sans-serif !important;
 }
 .wwd2 a.wwd2order:hover {
-	background:#ffcd2e;
-	color:#333333;
+	background:#333333;
+	color:#ffffff;
 	transition: 0.8s;
 }
 
