@@ -54,6 +54,9 @@ p {
 .subjudul {
 	font-family:'montserrat', sans-serif;
 	color:#ffffff;
+	top:150px;
+	left:4vw;
+	width:65%;
 }
 .subjudul b {
 	font-size:50px;
@@ -62,6 +65,11 @@ p {
 	font-size:20px;margin-top:20px;display:block;
 }
 @media (max-width: 800px) {
+	.subjudul {
+		top:80px;
+	left:4vw;
+	width:70%;
+	}
 	.subjudul b {
 		font-size:25px;
 	}
