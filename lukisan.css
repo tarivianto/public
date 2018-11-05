@@ -167,6 +167,38 @@ p {
 
 
 
+.bingung {
+	display:block;background:#ffcd2e;padding:50px 0;
+}
+.bingung b {
+	font-family:'montserrat',sans-serif;
+	font-size:30px;
+	color:#333333;
+	display:block;
+}
+.bingung span {
+	font-family:'montserrat',sans-serif;
+	font-size:14px;
+	color:#333333;
+	display:block;
+}
+@media (max-width: 800px)  {
+
+	.bingung b {
+	
+	font-size:20px;
+	
+	
+	.bingung span {
+	
+	font-size:14px;
+	
+	
+}
+}
+
+
+
 .wwd2 {
         display:grid;
         grid-template-columns:repeat(3,auto);
