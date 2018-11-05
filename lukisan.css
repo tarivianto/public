@@ -40,6 +40,17 @@ p {
         height:19px;
 }
 
+.bgutama {
+	width:100%;
+	margin-top:-5vw;
+}
+@media (max-width: 800px) {
+	.bgutama {
+		margin-top:-1vw;
+	}
+}
+		
+		
 .subjudul {
 	font-family:'montserrat', sans-serif;
 	color:#ffffff;
