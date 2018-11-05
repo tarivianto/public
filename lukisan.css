@@ -185,7 +185,7 @@ p {
         position:relative;
         text-align:center;
        color:#333333;
-    
+       justify-content:space-around;
 }
 .wwd3 .boks {
         padding:3em;
