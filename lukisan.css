@@ -11,10 +11,13 @@ body {
 
 h1{
 	     font-family:'montserrat',sans-serif !important;
-		font-size:30px;
+		
+}
+.ph h1 {
+	font-size:30px;
 }
 @media (max-width: 800px) {
-	h1 {font-size:25px;}
+	.ph h1 {font-size:25px;}
 }
 
 h2,h3, h4 {
