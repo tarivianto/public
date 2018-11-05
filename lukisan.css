@@ -177,8 +177,8 @@ p {
 .wwd3 {
         display:grid;
         grid-template-columns:repeat(5,auto);
-        padding:0;
-           background:rgba(255,255,255,0.98);
+       
+         
       width:100%;
       margin:0 auto;
         z-index:2;
@@ -186,13 +186,22 @@ p {
         text-align:center;
        color:#333333;
        justify-content:space-around;
+	background:rgba(255,255,255,1) !important;
+	padding:40px 0!important;
 }
 .wwd3 .boks {
-        padding:3em;
+       
+	padding:1em 3em!important;
+	min-width:0!important;
         
 }
-.wwd3 h3 {
+.wwd3 h3.harga {
         color:#333333;
+	font-size:15px!important;
+}
+.wwd3 h3.judul {
+	font-weight:bold;
+	font-family:'open-sans', sans-serif!important;
 }
 .wwd3 img {
         margin-bottom:1em;
@@ -210,13 +219,22 @@ p {
 	margin-top:20px;
 	  font-family: 'open sans', sans-serif !important;
 }
-.wwd2 a.wwd2order:hover {
+.wwd3 a.wwd2order:hover {
 	background:#ffcd2e;
 	color:#333333;
 	transition: 0.8s;
 }
 
-
+.wwd3 p {
+	display:block;width:300px;
+}
+.wwd3 span {
+	display:block;
+	border-top:3px solid #ff6699;
+	padding:10px 0;
+	margin:0;
+	font-size:11px;
+}
 
 
 .subtitle {
