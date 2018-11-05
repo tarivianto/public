@@ -55,6 +55,21 @@ p {
 	font-family:'montserrat', sans-serif;
 	color:#ffffff;
 }
+.subjudul b {
+	font-size:50px;
+}
+.subjudul span {
+	font-size:20px;margin-top:20px;display:block;
+}
+@media (max-width: 800px) {
+	.subjudul b {
+		font-size:25px;
+	}
+	.subjudul span {
+		font-size:14px;margin-top:5px;display:block;
+	}
+}
+
 
 .top {
         position:fixed;
