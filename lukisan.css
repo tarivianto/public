@@ -191,8 +191,8 @@ p {
 }
 .wwd3 .boks {
        
-	padding:1em 0!important;
-	width:300px;	
+	padding:1em!important;
+	background:#efefef;	
         
 }
 .wwd3 h3.harga {
