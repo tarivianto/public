@@ -66,7 +66,7 @@ p {
 		
 		
 .subjudul {
-	font-family:'montserrat', sans-serif;
+	font-family:'roboto slab', serif;
 	color:#ffffff;
 	top:150px;
 	left:4vw;
@@ -185,14 +185,14 @@ p {
 	display:block;background:#ffcd2e;padding:50px 0;margin:0 auto;z-index:2;position:relative;
 }
 .bingung b {
-	font-family:'montserrat',sans-serif;
+	font-family:'roboto slab',sans-serif;
 	font-size:30px;
 	color:#333333;
 	display:block;
 	margin-bottom:10px;
 }
 .bingung span {
-	font-family:'montserrat',sans-serif;
+	font-family:'montserrat',serif;
 	font-size:14px;
 	color:#333333;
 	display:block;
@@ -256,7 +256,7 @@ p {
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
-	  font-family: 'open sans', sans-serif !important;
+	  font-family: 'open sans', serif !important;
 }
 .wwd2 a.wwd2order:hover {
 	background:#333333;
@@ -291,7 +291,7 @@ p {
 
 .wwd3 .boks h3.judul {
 	font-weight:bold;
-	  font-family:'montserrat', sans-serif!important;
+	  font-family:'roboto slab', sans-serif!important;
 	font-size:20px;
 }
 .wwd3 .boks h3.harga {
@@ -319,7 +319,7 @@ p {
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
-	  font-family: 'open sans', sans-serif !important;
+	  font-family: 'roboto slab', serif !important;
 }
 .wwd3 a.wwd2order:hover {
 	background:#ffcd2e;
