@@ -197,9 +197,20 @@ p {
 	color:#333333;
 	display:block;
 }
+
+.bingung2 {
+	display:block;background:#ffcd2e;padding:50px 0;
+}
+.bingung2 b {
+	font-family:'montserrat',sans-serif;
+	font-size:30px;
+	color:#333333;
+	display:block;
+	margin-bottom:10px;
+}
 @media (max-width: 800px)  {
 
-	.bingung b, .portfolio .bingung b {
+	.bingung b, .bingung2 b {
 	
 	font-size:20px;
 	}
