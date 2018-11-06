@@ -298,8 +298,8 @@ p {
 }
 
 @media (max-width: 800px) {
-	.wwd3 .boks h3.judul {font-size:14px;}
-	.wwd3 .boks h3.harga {font-size:14px;font-weight:bold;}
+	.wwd3 .boks h3.judul {font-size:16px;}
+	.wwd3 .boks h3.harga {font-size:14px;}
 }
 
 .wwd3 img {
