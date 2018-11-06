@@ -596,7 +596,9 @@ p {
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
         color:#999999;font-family:'montserrat',sans-serif;
 }
-
+.bottom h4 {
+	font-size:16px;font-weight:bold;
+}
 .bottom a, .bottom a:hover {
         
         text-decoration:none;}
