@@ -199,7 +199,7 @@ p {
 }
 @media (max-width: 800px)  {
 
-	.bingung b {
+	.bingung b, .portfolio .bingung b {
 	
 	font-size:20px;
 	}
@@ -285,14 +285,23 @@ p {
 	
         
 }
-.wwd3 h3.harga {
-        color:#333333;
-	font-size:15px!important;
-}
+
 .wwd3 h3.judul {
 	font-weight:bold;
 	  font-family:'montserrat', sans-serif!important;
+	font-size:20px;
 }
+.wwd3 h3.harga {
+        color:#333333;
+	font-size:15px!important;
+	  font-family:'montserrat', sans-serif!important;
+}
+
+@media (max-width: 800px) {
+	.wwd3 h3.judul {font-size:16px;}
+	.wwd3 h3.harga {font-size:14px;}
+}
+
 .wwd3 img {
         margin-bottom:1em;
     max-width:100px;
