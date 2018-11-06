@@ -294,12 +294,12 @@ p {
 .wwd3 h3.harga {
         color:#333333;
 	font-size:15px!important;
-	  font-family:'montserrat', sans-serif!important;
+	  font-family:'open sans', sans-serif!important;
 }
 
 @media (max-width: 800px) {
-	.wwd3 h3.judul {font-size:16px;}
-	.wwd3 h3.harga {font-size:14px;}
+	.wwd3 h3.judul {font-size:14px;}
+	.wwd3 h3.harga {font-size:14px;font-weight:bold;}
 }
 
 .wwd3 img {
