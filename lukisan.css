@@ -25,6 +25,10 @@ h2,h3 {
         margin:0;
       font-family:'oswald',sans-serif !important;
 }
+h4 {
+	font-family:'open sans', sans-serif;
+}
+
 h1 {
         font-size:30px;
 	color:#333333;
@@ -580,9 +584,7 @@ p {
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
         color:rgb(153,153,153);
 }
-.bb1 h4, .bb2 h4, .bb3 h4 {
-	font-family:'open sans', sans-serif;
-}
+
 .bottom a, .bottom a:hover {
         
         text-decoration:none;}
