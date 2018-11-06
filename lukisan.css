@@ -290,6 +290,10 @@ p {
         
 }
 
+@media (max-width: 800px)  {
+	.wwd3 .boks {margin:0 auto;text-align:center;}
+}
+
 .wwd3 .boks h3.judul {
 	font-weight:bold;
 	  font-family:'montserrat', sans-serif!important;
