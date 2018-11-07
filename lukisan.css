@@ -10,7 +10,7 @@ body {
 
 
 h1{
-	     font-family:'montserrat',sans-serif !important;
+	     font-family:'roboto',sans-serif !important;
 		
 }
 .ph h1 {
@@ -66,7 +66,7 @@ p {
 		
 		
 .subjudul {
-	font-family:'montserrat', sans-serif;
+	font-family:'roboto', sans-serif;
 	color:#ffffff;
 	top:150px;
 	left:4vw;
@@ -185,14 +185,14 @@ p {
 	display:block;background:#ffcd2e;padding:50px 0;margin:0 auto;z-index:2;position:relative;
 }
 .bingung b {
-	font-family:'montserrat',sans-serif;
+	font-family:'roboto',sans-serif;
 	font-size:30px;
 	color:#333333;
 	display:block;
 	margin-bottom:10px;
 }
 .bingung span {
-	font-family:'montserrat',serif;
+	font-family:'roboto',serif;
 	font-size:14px;
 	color:#333333;
 	display:block;
@@ -240,7 +240,7 @@ p {
 	.wwd1 .boks {margin:0 auto;text-align:center;}
 }
 .wwd1 .boks b {
-	font-family:'montserrat',sans-serif;
+	font-family:'roboto',sans-serif;
 	font-size:18px;
 }
 @media (max-width: 800px)  {
@@ -335,7 +335,7 @@ p {
 
 .wwd3 .boks h3.judul {
 	font-weight:bold;
-	  font-family:'montserrat', sans-serif!important;
+	  font-family:'roboto', sans-serif!important;
 	font-size:18px;
 }
 .wwd3 .boks h3.harga {
@@ -442,7 +442,7 @@ p {
 	
 
 .ph2 a.more {
-	text-decoration:none;color:#333333;font-weight:bold;font-family:'montserrat',sans-serif;
+	text-decoration:none;color:#333333;font-weight:bold;font-family:'roboto',sans-serif;
 	background:#f5f5f5;display:inline-block;padding:5px 15px;border:2px solid #333333;
 }
 .ph2 a.more:hover {
@@ -638,7 +638,7 @@ p {
                
 }
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
-        color:#999999;font-family:'montserrat',sans-serif;
+        color:#999999;font-family:'roboto',sans-serif;
 }
 .bottom h4 {
 	font-size:16px;font-weight:bold;
