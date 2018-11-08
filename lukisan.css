@@ -49,6 +49,10 @@ p {
         font-family: 'montserrat', sans-serif !important;
         
 }
+@media (max-width: 800px) {
+	p { font-size:14px!important;}
+}
+
 
 .space {
         height:19px;
