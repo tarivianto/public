@@ -246,13 +246,13 @@ p {
 	font-size:18px!important;
 	
 }
-.wwd1 .boks p.servis {
+.wwd1 .boks p.ourservices {
 	font-family:'montserrat',sans-serif;
 	font-size:14px;
 	margin-top:5px;
 }
 @media (max-width: 800px)  {
-	.wwd1 .boks p.servis {font-size:14px;margin-top:5px;}
+	.wwd1 .boks p.ourservices {font-size:14px;margin-top:5px;}
 }
 
 @media (max-width: 800px)  {
@@ -268,7 +268,7 @@ p {
 
 
 
-.paketorder {
+.plan {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
@@ -281,35 +281,35 @@ p {
        color:#333333;
         justify-content:space-evenly;
 }
-.paketorder .boks {
+.plan .boks {
         padding:3em;
     	width:300px;
 
 }
 @media (max-width: 800px)  {
-	.paketorder .boks {margin:0 auto;text-align:center;}
+	.plan .boks {margin:0 auto;text-align:center;}
 }
-.paketorder .boks p {
+.plan .boks p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
-.paketorder .boks p span {
+.plan .boks p span {
 	display:block;border-bottom:1px dashed #b0b0b0;padding:15px 0;margin:0;
 }
 
 
-.paketorder .boks h3 {
+.plan .boks h3 {
         color:#333333;
 	font-family:'open sans',sans-serif!important;
 	font-size:20px;
 	
 }
-.paketorder img {
+.plan img {
         margin-bottom:1em;
     max-width:100px;
        
 }
 
-.paketorder a.wwd2order {
+.plan a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
 	background:#ffcd2e;
@@ -319,7 +319,7 @@ p {
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 }
-.paketorder a.wwd2order:hover {
+.plan a.wwd2order:hover {
 	background:#333333;
 	color:#ffffff;
 	transition: 0.8s;
@@ -328,7 +328,7 @@ p {
 
 
 
-.produkcetak {
+.printing {
         display:grid;
         grid-template-columns:repeat(5,auto);
        
@@ -343,7 +343,7 @@ p {
 	background:rgba(255,255,255,1) !important;
 	padding:40px 0!important;
 }
-.produkcetak .boks {
+.printing .boks {
        
 	   padding:3em;
     	width:300px;
@@ -352,32 +352,32 @@ p {
 }
 
 @media (max-width: 800px)  {
-	.produkcetak .boks {margin:0 auto;text-align:center;}
+	.printing .boks {margin:0 auto;text-align:center;}
 }
 
-.produkcetak .boks h3.judul {
+.printing .boks h3.judul {
 	font-weight:bold;
 	  font-family:'open sans', sans-serif!important;
 	font-size:18px;
 }
-.produkcetak .boks h3.harga {
+.printing .boks h3.harga {
         color:#333333;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
 }
 
 @media (max-width: 800px) {
-	.produkcetak .boks h3.judul {font-size:16px;}
-	.produkcetak .boks h3.harga {font-size:14px;}
+	.printing .boks h3.judul {font-size:16px;}
+	.printing .boks h3.harga {font-size:14px;}
 }
 
-.produkcetak img {
+.printing img {
         margin-bottom:1em;
     max-width:100px;
        
 }
 
-.produkcetak a.wwd2order {
+.printing a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
 	background:#333333;
@@ -387,16 +387,16 @@ p {
 	margin-top:20px;
 	  font-family: 'roboto slab', serif !important;
 }
-.produkcetak a.wwd2order:hover {
+.printing a.wwd2order:hover {
 	background:#ffcd2e;
 	color:#333333;
 	transition: 0.8s;
 }
 
-.produkcetak p {
+.printing p {
 	display:block;
 }
-.produkcetak span {
+.printing span {
 	font-family:'open sans',sans-serif;
 	font-weight:300;
 	display:block;
@@ -631,7 +631,7 @@ p {
 
 
 @media (max-width: 800px) {
-        .top, .portfolio, .wwd, .wwd1, .paketorder, .produkcetak, .pi, .order, .oc, .ci, .ac, .bot1 {
+        .top, .portfolio, .wwd, .wwd1, .plan, .printing, .pi, .order, .oc, .ci, .ac, .bot1 {
            grid-template-columns:100% !important; 
             grid-template-rows:auto;   
         }
