@@ -297,8 +297,9 @@ p {
 }
 
 
-.wwd2 h3 {
+.wwd2 .boks h3 {
         color:#333333;
+	font-family:'open sans',sans-serif;
 }
 .wwd2 img {
         margin-bottom:1em;
