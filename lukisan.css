@@ -246,13 +246,13 @@ p {
 	font-size:18px!important;
 	
 }
-.wwd1 .boks p {
-	font-family:'montserrat',sans-serif!important;
-	font-size:14px!important;
-	margin-top:5px!important;
+.wwd1 .boks p.servis {
+	font-family:'montserrat',sans-serif;
+	font-size:14px;
+	margin-top:5px;
 }
 @media (max-width: 800px)  {
-	.wwd1 .boks p {font-size:14px!important;margin-top:5px!important;}
+	.wwd1 .boks p.servis {font-size:14px;margin-top:5px;}
 }
 
 @media (max-width: 800px)  {
