@@ -239,7 +239,7 @@ p {
 
 }
 @media (max-width: 800px)  {
-	.services .boks {margin:0 auto;text-align:center;}
+	.services .bokslayanan {margin:0 auto;text-align:center;}
 }
 .layanan .bokslayanan b {
 	font-family:'montserrat',sans-serif;
