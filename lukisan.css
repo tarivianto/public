@@ -49,9 +49,7 @@ p {
         font-family: 'montserrat', sans-serif !important;
         
 }
-@media (max-width: 800px) {
-	p { font-size:14px!important;}
-}
+
 
 
 .space {
@@ -247,6 +245,14 @@ p {
 	font-family:'montserrat',sans-serif;
 	font-size:18px;
 }
+.wwd1 span {
+	font-family:'montserrat',sans-serif;
+	font-size:14px;
+}
+@media (max-width: 800px)  {
+	.wwd1 span {font-size:14px;}
+}
+
 @media (max-width: 800px)  {
 	.wwd1 .boks b {font-size:16px;}
 }
