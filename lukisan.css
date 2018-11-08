@@ -309,7 +309,7 @@ p {
        
 }
 
-.plan a.planorder {
+.plan a {
 	display:inline-block;
 	padding:10px 30px;
 	background:#ffcd2e;
@@ -319,7 +319,7 @@ p {
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 }
-.plan a.planorder:hover {
+.plan a:hover {
 	background:#333333;
 	color:#ffffff;
 	transition: 0.8s;
