@@ -268,7 +268,7 @@ p {
 
 
 
-.wwd2 {
+.paketorder {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
@@ -281,35 +281,35 @@ p {
        color:#333333;
         justify-content:space-evenly;
 }
-.wwd2 .boks {
+.paketorder .boks {
         padding:3em;
     	width:300px;
 
 }
 @media (max-width: 800px)  {
-	.wwd2 .boks {margin:0 auto;text-align:center;}
+	.paketorder .boks {margin:0 auto;text-align:center;}
 }
-.wwd2 .boks p {
+.paketorder .boks p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
-.wwd2 .boks p span {
+.paketorder .boks p span {
 	display:block;border-bottom:1px dashed #b0b0b0;padding:15px 0;margin:0;
 }
 
 
-.wwd2 .boks h3 {
+.paketorder .boks h3 {
         color:#333333;
 	font-family:'open sans',sans-serif!important;
 	font-size:20px;
 	
 }
-.wwd2 img {
+.paketorder img {
         margin-bottom:1em;
     max-width:100px;
        
 }
 
-.wwd2 a.wwd2order {
+.paketorder a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
 	background:#ffcd2e;
@@ -319,7 +319,7 @@ p {
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 }
-.wwd2 a.wwd2order:hover {
+.paketorder a.wwd2order:hover {
 	background:#333333;
 	color:#ffffff;
 	transition: 0.8s;
@@ -328,7 +328,7 @@ p {
 
 
 
-.wwd3 {
+.produkcetak {
         display:grid;
         grid-template-columns:repeat(5,auto);
        
@@ -343,7 +343,7 @@ p {
 	background:rgba(255,255,255,1) !important;
 	padding:40px 0!important;
 }
-.wwd3 .boks {
+.produkcetak .boks {
        
 	   padding:3em;
     	width:300px;
@@ -352,32 +352,32 @@ p {
 }
 
 @media (max-width: 800px)  {
-	.wwd3 .boks {margin:0 auto;text-align:center;}
+	.produkcetak .boks {margin:0 auto;text-align:center;}
 }
 
-.wwd3 .boks h3.judul {
+.produkcetak .boks h3.judul {
 	font-weight:bold;
 	  font-family:'open sans', sans-serif!important;
 	font-size:18px;
 }
-.wwd3 .boks h3.harga {
+.produkcetak .boks h3.harga {
         color:#333333;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
 }
 
 @media (max-width: 800px) {
-	.wwd3 .boks h3.judul {font-size:16px;}
-	.wwd3 .boks h3.harga {font-size:14px;}
+	.produkcetak .boks h3.judul {font-size:16px;}
+	.produkcetak .boks h3.harga {font-size:14px;}
 }
 
-.wwd3 img {
+.produkcetak img {
         margin-bottom:1em;
     max-width:100px;
        
 }
 
-.wwd3 a.wwd2order {
+.produkcetak a.wwd2order {
 	display:inline-block;
 	padding:10px 30px;
 	background:#333333;
@@ -387,16 +387,16 @@ p {
 	margin-top:20px;
 	  font-family: 'roboto slab', serif !important;
 }
-.wwd3 a.wwd2order:hover {
+.produkcetak a.wwd2order:hover {
 	background:#ffcd2e;
 	color:#333333;
 	transition: 0.8s;
 }
 
-.wwd3 p {
+.produkcetak p {
 	display:block;
 }
-.wwd3 span {
+.produkcetak span {
 	font-family:'open sans',sans-serif;
 	font-weight:300;
 	display:block;
