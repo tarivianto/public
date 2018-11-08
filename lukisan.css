@@ -728,7 +728,8 @@ font-size:11px;
        color:#333333;
         justify-content:space-around;
 }
-.ket .box ul li {
+.ket {
 	font-family:'open sans', sans-serif!important;
 	font-weight:300;
+	font-size:12px;
 }
