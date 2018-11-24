@@ -312,15 +312,16 @@ p {
 .plan a {
 	display:inline-block;
 	padding:10px 30px;
-	background:#ffcd2e;
+	background:#ffffff;
 	color:#333333;
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
+	border:3px solid #ffcd2e;
 }
 .plan a:hover {
-	background:#333333;
+	background:#ffcd2e;
 	color:#ffffff;
 	transition: 0.8s;
 }
