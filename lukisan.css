@@ -62,8 +62,8 @@ p {
 }
 @media (max-width: 800px) {
 	.bgutama {
-		width:800px!important;
-		overflow:hidden;
+		
+	
 		margin-top:40px;
 		margin:0 auto;
 	}
