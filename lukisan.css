@@ -793,3 +793,12 @@ font-size:12px;
         justify-content:space-around;
 }
 
+.ket .boks {
+	width:70%;padding:0 30% 0 0;
+	}
+
+@media (max-width: 800px) {
+	.ket .boks {
+		width:100%;padding:0;
+	}
+}
