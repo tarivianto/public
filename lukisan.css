@@ -187,7 +187,7 @@ p {
 
 .intro {
 	display:block;margin:0 auto;z-index:2;position:relative;
-	text-align:center;width:100%;padding:200px 4% 50px 4%;margin-top:-5vh;background:#ffffff;
+	text-align:center;width:100%;padding:150px 4% 50px 4%;margin-top:-5vh;background:#ffffff;
 }
 .intro b {
 	font-family:'montserrat',sans-serif;
