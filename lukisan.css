@@ -198,13 +198,15 @@ p {
 	font-size:14px;
 	color:#333333;
 	display:block;
+	width:70%;
+	margin:0 auto;
 }
 
 
 
 @media (max-width: 800px)  {
 	.intro {
-		margin:0 auto;margin-top:30vh!important;
+		margin:0 auto;margin-top:0!important;
 	}
 	.intro b {
 	
@@ -239,6 +241,8 @@ p {
 	font-size:14px;
 	color:#333333;
 	display:block;
+	width:70%;
+	margin:0 auto;
 }
 
 
