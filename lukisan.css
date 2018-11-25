@@ -209,7 +209,7 @@ p {
 
 @media (max-width: 800px)  {
 	.intro {
-		margin:0 auto;margin-top:0!important;
+		width:100%!important;margin:0 auto;margin-top:0!important;
 	}
 	.intro b {
 	
@@ -252,7 +252,9 @@ p {
 
 
 @media (max-width: 800px)  {
-
+	.bingung {
+		width:100%!important;margin:0 auto;
+	}
 	.bingung b {
 	
 	font-size:20px;
