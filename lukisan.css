@@ -796,6 +796,8 @@ font-size:12px;
 .ket .boks, .ket2 .boks {
 	display:grid;
         grid-template-columns:repeat(2, 70% 30%);
+	  text-align:left;
+	  width:100%;
 	}
 
 @media (max-width: 800px) {
