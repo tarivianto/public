@@ -204,7 +204,7 @@ p {
 
 @media (max-width: 800px)  {
 	.intro {
-		margin:0 auto;margin-top:30vh;
+		margin:0 auto;margin-top:30vh!important;
 	}
 	.intro b {
 	
