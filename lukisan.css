@@ -790,7 +790,7 @@ font-size:12px;
         position:relative;
         text-align:left;
        color:#333333;
-        justify-content:space-around;
+        justify-content:flex-start;
 }
 
 .ket .boks, .ket2 .boks {
@@ -798,6 +798,7 @@ font-size:12px;
         grid-template-columns:repeat(2, 70% 30%);
 	  text-align:left;
 	  width:100%;
+	justify-content:flex-start;
 	}
 
 @media (max-width: 800px) {
