@@ -62,9 +62,10 @@ p {
 }
 @media (max-width: 800px) {
 	.bgutama {
-		width:1600px!important;
+		width:120vw!important;
 		overflow:hidden;
 		margin-top:40px;
+		margin:0 auto;
 	}
 }
 		
