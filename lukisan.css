@@ -214,7 +214,8 @@ p {
 	}
 	
 	.intro span {
-	
+	width:100%;
+	margin:0 auto;
 	font-size:14px;
 	
 	
@@ -255,7 +256,8 @@ p {
 	}
 	
 	.bingung span {
-	
+	width:100%;
+	margin:0 auto;
 	font-size:14px;
 	
 	
