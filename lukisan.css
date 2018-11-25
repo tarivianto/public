@@ -776,7 +776,7 @@ figcaption h3 {
 }
 
 
-.ket {
+.ket, .ket2 {
 	display:grid;
         grid-template-columns:repeat(1,auto);
         padding:0 4% 50px 4%;
@@ -793,12 +793,12 @@ font-size:12px;
         justify-content:space-around;
 }
 
-.ket .boks {
+.ket .boks, .ket2 .boks {
 	width:70%;padding:0;
 	}
 
 @media (max-width: 800px) {
-	.ket .boks {
+	.ket .boks, .ket2 .boks {
 		width:100%;padding:0;
 	}
 }
