@@ -187,7 +187,7 @@ p {
 
 .intro {
 	display:block;margin:0 auto;z-index:2;position:relative;
-	text-align:center;width:100%;padding:50px 4%;margin-top:-30vh;background:#ffffff;
+	text-align:center;width:100%;padding:100px 4% 50px 4%;margin-top:-30vh;background:#ffffff;
 }
 .intro b {
 	font-family:'montserrat',sans-serif;
@@ -209,7 +209,7 @@ p {
 
 @media (max-width: 800px)  {
 	.intro {
-		width:100%!important;margin:0 auto;margin-top:0!important;
+		width:100%!important;margin:0 auto;margin-top:0!important;padding:50px 4%!important;
 	}
 	.intro b {
 	
