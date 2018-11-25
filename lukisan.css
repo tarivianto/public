@@ -795,10 +795,11 @@ font-size:12px;
 
 .ket .boks, .ket2 .boks {
 	width:70%;padding:0;
+	margin:0 30% 0 0;
 	}
 
 @media (max-width: 800px) {
 	.ket .boks, .ket2 .boks {
-		width:100%;padding:0;
+		width:100%;padding:0;margin:0;
 	}
 }
