@@ -236,7 +236,7 @@ p {
 .portfoliotitle {
 	display:block;padding:0;margin:0 auto;z-index:2;position:relative;
 }
-.bingung b {
+.bingung b, .portfoliotitle b {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
 	color:#333333;
@@ -258,7 +258,7 @@ p {
 	.bingung {
 		width:100%!important;margin:0 auto;
 	}
-	.bingung b {
+	.bingung b, .portfoliotitle b {
 	
 	font-size:20px;
 	}
