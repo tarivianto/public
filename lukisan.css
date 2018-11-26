@@ -747,7 +747,9 @@ p {
 	font-family:'open sans',sans-serif;font-size:14px;
 }
 
-
+.bb2 a:hover {
+	text-decoration:underline;
+}
 
 
 
