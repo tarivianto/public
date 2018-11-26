@@ -723,7 +723,7 @@ p {
 .bottom {
 	display:grid;
 	grid-template-columns:100%;
-            background:#5B6367;
+            background:#3c4147;
          padding:20px 0;
         
           position:relative;
@@ -733,7 +733,7 @@ p {
                
 }
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
-        color:#999999;font-family:'montserrat',sans-serif;
+        color:#808286;font-family:'montserrat',sans-serif;
 }
 .bottom h4 {
 	font-size:16px;font-weight:bold;
@@ -783,7 +783,7 @@ p {
 	padding: 0 4%;
 	
 	position: relative !important;
-	color: #999999;
+	color: #808286;
 }
 figcaption {
         text-align:center;
