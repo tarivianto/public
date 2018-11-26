@@ -2,8 +2,8 @@ html, body {
         height:100%;
 }
 body {
-        background:#ffffff;
-             color:#333333;
+        background:#262C32;
+             color:#ffffff;
         font-family:'open sans', sans-serif;   display:grid;
          
 }
@@ -31,7 +31,7 @@ h4 {
 
 h1 {
         font-size:30px;
-	color:#333333;
+	
 }
 h2 {
         font-size:24px;
@@ -236,17 +236,24 @@ p {
 .portfoliotitle {
 	display:block;padding:0;margin:0 auto;z-index:2;position:relative;
 }
-.bingung b, .portfoliotitle b {
+.bingung b {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#333333;
+	color:#ffffff;
+	display:block;
+	margin-bottom:10px;
+}
+.portfoliotitle b {
+	font-family:'montserrat',sans-serif;
+	font-size:30px;
+	color:#ffffff;
 	display:block;
 	margin-bottom:10px;
 }
 .bingung span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#333333;
+	color:#ffffff;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -279,13 +286,13 @@ p {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
-           background:rgba(255,255,255,0.98);
+           background:#ffcd2e;
       width:100%;
       margin:0 auto;
         z-index:2;
         position:relative;
         text-align:center;
-       color:#333333;
+       color:#1D2127;
         justify-content:space-evenly;
 }
 .layanan .bokslayanan {
@@ -327,13 +334,13 @@ p {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
-           background:rgba(255,255,255,0.98);
+          
       width:100%;
       margin:0 auto;
         z-index:2;
         position:relative;
         text-align:center;
-       color:#333333;
+   
         justify-content:space-evenly;
 }
 .plan .boksplan {
@@ -348,12 +355,12 @@ p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
 .plan .boksplan p span {
-	display:block;border-bottom:1px dashed #b0b0b0;padding:15px 0;margin:0;
+	display:block;border-bottom:1px dashed #EEF6F6;padding:15px 0;margin:0;
 }
 
 
 .plan .boksplan h3 {
-        color:#333333;
+        color:#ffffff;
 	font-family:'open sans',sans-serif!important;
 	font-size:20px;
 	
@@ -367,17 +374,17 @@ p {
 .plan a {
 	display:inline-block;
 	padding:10px 30px;
-	background:#ffffff;
-	color:#333333;
+	background:#ffcd2e;
+	color:#262C32;
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
-	border:2px solid #ffcd2e;
+	border:0px solid #ffcd2e;
 }
 .plan a:hover {
-	background:#ffcd2e;
-	color:#ffffff;
+	background:#ffffff;
+	color:#262C32;
 	transition: 0.8s;
 }
 
@@ -394,9 +401,9 @@ p {
         z-index:2;
         position:relative;
         text-align:center;
-       color:#333333;
+      
        justify-content:space-around;
-	background:rgba(255,255,255,1) !important;
+	
 	padding:40px 0!important;
 }
 .printing .boksprinting {
@@ -417,7 +424,7 @@ p {
 	font-size:18px;
 }
 .printing .boksprinting h3.harga {
-        color:#333333;
+        color:#ffffff;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
 }
@@ -479,7 +486,7 @@ p {
         grid-template-rows:auto;
     margin:0 auto;
         padding:70px 0;
-     background:#f5f5f5;
+     background:#1D2127;
       width:100%;
      
         z-index:2;
@@ -498,7 +505,7 @@ p {
 }
 
 .welcome h1, .oh h1, .ch h1, .ah h1 {
-         color:#333333;
+         color:#ffffff;
 }
 
 
@@ -668,8 +675,8 @@ p {
 
 
 .cetak {
-	  background:rgba(255,255,255,1);
-	color:#333333;
+	  
+	color:#ffffff;
 	position:relative;
 	z-index:2;
 	padding:50px 0;
