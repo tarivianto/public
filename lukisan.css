@@ -476,7 +476,7 @@ p {
         grid-template-rows:auto;
     margin:0 auto;
         padding:0;
-     background:#313131;
+     background:#fafafa;
       width:100%;
      
         z-index:2;
@@ -522,12 +522,12 @@ p {
 	
 
 .ph2 a.more {
-	text-decoration:none;color:#ffffff;font-weight:bold;font-family:'montserrat',sans-serif;
-	background:#313131;display:inline-block;padding:5px 15px;border:2px solid #ffffff;
+	text-decoration:none;color:#313131;font-weight:bold;font-family:'montserrat',sans-serif;
+	;display:inline-block;padding:5px 15px;border:2px solid #313131;
 }
 .ph2 a.more:hover {
-	color:#313131;
-	background:#ffffff;
+	color:#ffffff;
+	background:#313131;
 	transition:1s;
 	text-decoration:none;
 }
