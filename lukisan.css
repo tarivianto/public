@@ -13,18 +13,8 @@ h1{
 	     font-family:'montserrat',sans-serif;
 		
 }
-.ph h1 {
-	font-size:30px;
-}
-@media (max-width: 800px) {
-	.ph h1 {font-size:25px;}
-}
 
-h2,h3 {
-        padding:0;
-        margin:0;
-    
-}
+
 h4 {
 	font-family:'open sans', sans-serif;
 }
@@ -150,9 +140,7 @@ p {
 
 
 @media (max-width: 800px)  {
-	.bingung {
-		width:100%!important;margin:0 auto;
-	}
+	
 	.portfoliotitle h1, .plantitle h1, .printingtitle h1 {
 	
 	font-size:20px;
@@ -400,7 +388,7 @@ p {
 
 	
 
-a.portfoliomore {
+.portfolio a.portfoliomore {
 	display:inline-block;
 	padding:10px 30px;
 
@@ -411,7 +399,7 @@ a.portfoliomore {
 	  font-family: 'open sans', serif !important;
 	border:2px solid #ffffff;
 }
-a.portfoliomore:hover {
+.portfolio a.portfoliomore:hover {
 	background:#ffffff;
 	color:#1d2127;
 	transition: 0.8s;
