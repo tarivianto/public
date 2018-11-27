@@ -392,11 +392,11 @@ p {
 	display:inline-block;
 	padding:10px 30px;
 
-	color:#ffffff!important;
+	color:#ffffff;
 	font-weight:bold;
-	text-decoration:none!important;
+	text-decoration:none;
 	margin-top:20px;
-	  font-family: 'open sans', serif !important;
+	  font-family: 'open sans', serif;
 	border:2px solid #ffffff;
 }
 .portfolio a.portfoliomore:hover {
