@@ -353,7 +353,7 @@ p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
 .plan .boksplan p span {
-	display:block;border-bottom:1px dashed #EEF6F6;padding:15px 0;margin:0;
+	display:block;border-bottom:1px solid #4c5458;padding:15px 0;margin:0;
 }
 
 
@@ -473,7 +473,7 @@ p {
 	font-family:'open sans',sans-serif;
 	font-weight:300;
 	display:block;
-	border-top:3px solid #ffcd2e;
+	border-top:2px solid #ffcd2e;
 	padding:10px 0;
 	margin:0;
 	font-size:12px!important;
