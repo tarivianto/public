@@ -468,6 +468,14 @@ p {
 	font-size:12px!important;
 }
 
+.boksprinting h3 {
+	font-family:'montserrat',sans-serif;
+	font-weight:600;
+}
+
+
+
+
 
 .subtitle {
         background:rgba(255,255,255,1);
