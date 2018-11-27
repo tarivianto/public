@@ -527,7 +527,7 @@ figcaption h3 {
 .ket, .ket2 {
 	display:grid;
         grid-template-columns:repeat(1,auto);
-        padding:0 4% 50px 4%;
+        padding:0 4% 0 4%;
 	font-family:'open sans', sans-serif!important;
 font-size:12px;
  font-weight:300;
