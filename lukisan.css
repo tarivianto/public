@@ -262,6 +262,7 @@ p {
 	text-decoration:none;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
+	font-size:14px;
 	border:0px solid #ffcd2e;
 }
 .plan a:hover {
@@ -391,12 +392,12 @@ p {
 .portfolio a.portfoliomore {
 	display:inline-block;
 	padding:10px 30px;
-
+	font-size:14px;
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:none!important;
 	margin-top:20px;
-	  font-family: 'open sans', serif;
+	  font-family: 'open sans', serif !important;
 	border:2px solid #ffffff;
 }
 .portfolio a.portfoliomore:hover {
