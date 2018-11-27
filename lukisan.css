@@ -144,7 +144,7 @@ p {
 @media (max-width: 800px)  {
 	
 	.portfoliotitle h1, .plantitle h1, .printingtitle h1 {
-	
+	font-weight:700;
 	font-size:20px;
 	}
 	
@@ -239,7 +239,7 @@ p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
 .plan .boksplan p span {
-	display:block;border-bottom:1px solid #4c5458;padding:15px 0;margin:0;
+	display:block;border-bottom:1px solid #d0d0d0;padding:15px 0;margin:0;
 }
 
 
@@ -449,7 +449,7 @@ p {
                
 }
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
-        color:#808286;font-family:'montserrat',sans-serif;
+        color:#999999;font-family:'montserrat',sans-serif;
 }
 .bottom h4 {
 	font-size:16px;font-weight:bold;
@@ -524,7 +524,7 @@ font-size:12px;
         z-index:2;
         position:relative;
         text-align:left;
-       color:#ffffff;
+       color:#414141;
         justify-content:flex-start;
 }
 
@@ -622,6 +622,7 @@ font-size:12px;
   font-weight: 600;
   margin: 0 0 0.25em 0;
   padding:0 4%;
+	color:#ffffff;
   @media screen and (min-width: 640px) {
     max-width: 650px;
     font-size: 4em;
@@ -636,6 +637,7 @@ font-weight:300;
  padding:0 4%;
 margin:0 0 0.35em 0;
   font-size: 1.5em;
+	color:#ffffff;
 }
 
 
