@@ -52,9 +52,6 @@ p {
 
 
 
-.space {
-        height:19px;
-}
 
 .bgutama {
 	width:100%;
@@ -70,118 +67,16 @@ p {
 }
 		
 		
-.subjudul {
-	font-family:'montserrat', sans-serif;
-	color:#ffffff;
-	top:150px;
-	left:4vw;
-	width:65%;
-}
-.subjudul b {
-	font-size:50px;
-}
-.subjudul span {
-	font-size:20px;margin-top:20px;display:block;
-}
-@media (max-width: 800px) {
-	.subjudul {
-		top:80px;
-	left:4vw;
-	width:70%;
-	}
-	.subjudul b {
-		font-size:25px;
-	}
-	.subjudul span {
-		font-size:14px;margin-top:5px;display:block;
-	}
-}
 
 
-.top {
-        position:fixed;
-        z-index:1;
-        width:100%;
-        margin-top:34px;
-        display:grid;
-        grid-template-columns:auto;
-        }
-
-.w3-content {
-       
-     min-width:100%; 
-}
-
-.welcome {
-        display:grid;
-        grid-template-columns:100%;
-        padding:30px 10px;
-      
-        margin-top:80vh;   
-        z-index:2;
-        position:relative;
-        text-align:center;
-}
-.profil {
-         display:grid;
-        grid-template-columns:100%;
-        padding:30px 4%;
-        background:rgba(255,255,255,1);
-      
-        z-index:2;
-        position:relative;
-        text-align:center;
-}
-
-.about {
-       
-      background:rgba(255,255,255,1);
-        z-index:2;
-        width:100%;
-        margin:0 auto;
-       
-        display:grid;
-        grid-template-columns:auto;
-        padding:100px 4%;
-      position:relative;
-}
 
 
-.welcome p, .portfolio p, .order p, .cetak p, .profil p {
-        color:#333333;
-}
+
 
 @media only screen and (max-width: 500px){
         .welcome {
                 margin-top:35vh;
         }
-}
-
-
-.wwd {
-        display:grid;
-        grid-template-columns:repeat(3,auto);
-        padding:0;
-           background:#ffcd2e;
-      width:100%;
-      margin:0 auto;
-        z-index:2;
-        position:relative;
-        text-align:center;
-       color:#333333;
-        justify-content:space-around;
-}
-.wwd .boks {
-    
-        
-}
-.wwd h3 {
-        color:#333333;
-}
-.wwd img {
-        margin-bottom:1em;
-    max-width:135px;
-       
 }
 
 
@@ -230,9 +125,7 @@ p {
 
 
 
-.bingung {
-	display:block;background:#ffcd2e;padding:50px 0;margin:0 auto;z-index:2;position:relative;
-}
+
 .portfoliotitle {
 	display:block;padding:0;margin:0 auto;z-index:2;position:relative;
 }
@@ -274,22 +167,7 @@ p {
 	}
 }
 
-a.portfoliomore {
-	display:inline-block;
-	padding:10px 30px;
 
-	color:#ffffff;
-	font-weight:bold;
-	text-decoration:none;
-	margin-top:20px;
-	  font-family: 'open sans', serif !important;
-	border:2px solid #ffffff;
-}
-a.portfoliomore:hover {
-	background:#ffffff;
-	color:#1d2127;
-	transition: 0.8s;
-}
 
 
 
@@ -505,18 +383,6 @@ a.portfoliomore:hover {
 
 
 
-
-.subtitle {
-        background:rgba(255,255,255,1);
-       position:relative;
-       z-index:2;
-       padding-top:50px;
-        text-align:center;
-       
-}
-.subtitle h1 {
-                color:#333333;
-}
 .portfolio {
         display:grid;
         grid-template-rows:auto;
@@ -531,51 +397,24 @@ a.portfoliomore:hover {
         justify-content:space-evenly;
 }
 
-.ph {
-        grid-template-columns:100%;
-        margin-bottom:19px;
-        
-}
-.ph h1 {
-	color:#ffffff;
-}
 
-.welcome h1, .oh h1, .ch h1, .ah h1 {
-         color:#ffffff;
-}
-
-
-.pi {
-        display:grid;
-  
-        padding:0 4%;
-       
-        margin:0 auto;
-	width:70%;
-	grid-gap:40px; 
-	grid-template-columns:repeat(3,auto);
-	justify-content:space-evenly;
-        }
-
-
-.portfolio .isi {
-        padding:0;
-}
-.portfolio .isi img {
-        width:100%;
-}
- 
 	
 
-.ph2 a.more {
-	text-decoration:none;color:#ffffff;font-weight:bold;font-family:'montserrat',sans-serif;
-	;display:inline-block;padding:5px 15px;border:2px solid #ffffff;
-}
-.ph2 a.more:hover {
-	color:#1d2327;
-	background:#ffffff;
-	transition:1s;
+a.portfoliomore {
+	display:inline-block;
+	padding:10px 30px;
+
+	color:#ffffff;
+	font-weight:bold;
 	text-decoration:none;
+	margin-top:20px;
+	  font-family: 'open sans', serif !important;
+	border:2px solid #ffffff;
+}
+a.portfoliomore:hover {
+	background:#ffffff;
+	color:#1d2127;
+	transition: 0.8s;
 }
 
 
@@ -583,152 +422,6 @@ a.portfoliomore:hover {
 
 
 
-
-
-.order {
-        display:grid;
-        grid-template-columns:100%;
-     grid-template-rows:auto;
-        padding:50px 4%;
-     background:rgba(255,255,255,1);
-      width:100%;
-     
-        z-index:2;
-        position:relative;
-        text-align:center;
-        justify-content:space-evenly;
-}
-
-.oh {	
-	display:grid;
-         grid-template-columns:100%;
-        margin-bottom:19px;
-}
-
-.oc {
-	display:grid;
-	grid-template-columns:36% 60%;
-	grid-gap:4%;
-}
-
-.oi {
-        padding:1em;
-        border-bottom:1px solid #dadada;
-        text-align:left;
-        margin-bottom:0.3em;
-       
-}
-.oi:last-child {
-	 border-bottom:0px solid #dadada;
-}
-.oi span {
-        font-size:30px;
-        vertical-align:top;
-        padding:0 2% 2% 2%;
-       width:8%;
-        display:inline-block;
-}
-.oi p {
-        display:inline-block;
-        width:90%;
-	
-  
-}
-
-.oi span, .oi p {
-	color:#333333;
-}
-
-
-
-
-
-
-
-
-
-.about {
-        display:grid;
-        grid-template-columns:100%;
-     grid-template-rows:auto;
-        padding:50px 4%;
-     background:rgba(255,255,255,1);
-      width:100%;
-     border-bottom:1px dashed #dadada;
-        z-index:2;
-        position:relative;
-        text-align:center;
-        justify-content:space-evenly;
-}
-
-.ah {
-         grid-template-columns:100%;
-        margin-bottom:19px;
-}
-
-.ac {
-	display:grid;
-	grid-template-columns:36% 60%;
-	grid-gap:4%;
-}
-
-.ac img {
-	width:100%;
-	margin-top:8px;
-}
-
-.ai {
-        padding:1em;
-        border:1px solid #dadada;
-        text-align:left;
-        margin-bottom:0.5em;
-       
-}
-.ai span {
-        font-size:30px;
-        vertical-align:top;
-        padding:0 2% 2% 2%;
-       width:8%;
-        display:inline-block;
-}
-.ai p {
-        display:inline-block;
-        width:90%;
-	
-  
-}
-
-.ai span, .ai p {
-	color:#333333;
-}
-
-
-
-
-
-
-
-
-
-.cetak {
-	  
-	color:#ffffff;
-	position:relative;
-	z-index:2;
-	padding:50px 0;
-	text-align:center;
-}
-.ch {
-	display:grid;
-	grid-template-columns:100%;
-	margin-bottom:19px;
-}
-.ci {
-	display:grid;
-	grid-template-columns:100%;
-	padding:0 4%;
-	
-}
 
 
 
