@@ -404,9 +404,9 @@ a.portfoliomore {
 	display:inline-block;
 	padding:10px 30px;
 
-	color:#ffffff;
+	color:#ffffff!important;
 	font-weight:bold;
-	text-decoration:none;
+	text-decoration:none!important;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 	border:2px solid #ffffff;
@@ -596,10 +596,10 @@ font-size:12px;
 
 .masthead {
   overflow: hidden;
-  color: #FFF;
+
   padding: 1em;
  
-  background-color: #404040;
+
 
   &.responsive-image {
     background-position: center;
