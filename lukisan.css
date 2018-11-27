@@ -274,6 +274,24 @@ p {
 	}
 }
 
+.portfoliomore a {
+	display:inline-block;
+	padding:10px 30px;
+
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	margin-top:20px;
+	  font-family: 'open sans', serif !important;
+	border:2px solid #ffffff;
+}
+.portfoliomore a:hover {
+	background:#ffffff;
+	color:#1d2127;
+	transition: 0.8s;
+}
+
+
 
 
 
