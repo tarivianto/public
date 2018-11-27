@@ -234,14 +234,15 @@ p {
         justify-content:center;
 }
 .plan .boksplan {
-        padding:3em;
+       
     
 }
 .plan .boksplan .boksplandalam {
-	padding:6em 3em 1.5em 3em;border:1px solid #e6e6e6;width:300px;
+	padding:6em 2em 1.5em 2em;border:1px solid #e6e6e6;width:300px;
 }
 
 @media (max-width: 800px)  {
+	.plan {grid-template-columns:repeat(1,auto);grid-gap:0em;}
 	.plan .boksplan {margin:0 auto;text-align:center;}
 }
 .plan .boksplan p {
