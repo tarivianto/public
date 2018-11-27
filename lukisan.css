@@ -3,7 +3,7 @@ html, body {
 }
 body {
         background:#ffffff;
-             color:#ffffff;
+             color:#414141;
         font-family:'open sans', sans-serif;   display:grid;
          
 }
@@ -125,7 +125,7 @@ p {
 .portfoliotitle h1, .plantitle h1, .printingtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-
+	color:#313131;
 	display:block;
 	margin-bottom:10px;
 	font-weight:600;
@@ -133,7 +133,7 @@ p {
 .portfoliotitle span, .plantitle span, .printingtitle span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	
+	color:#313131;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -167,7 +167,7 @@ p {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
-           background:#ffcd2e;
+           background:#ffffff;
       width:100%;
       margin:0 auto;
         z-index:2;
@@ -379,7 +379,7 @@ p {
         grid-template-rows:auto;
     margin:0 auto;
         padding:70px 0;
-     background:#414141;
+     background:#ececec;
       width:100%;
      
         z-index:2;
@@ -395,16 +395,16 @@ p {
 	display:inline-block;
 	padding:10px 30px;
 	font-size:14px;
-	color:#ffffff;
+	color:#414141;
 	font-weight:700;
 	text-decoration:none!important;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
-	border:2px solid #ffffff;
+	border:2px solid #414141;
 }
 .portfolio a.portfoliomore:hover {
-	background:#ffffff;
-	color:#414141;
+	background:#414141;
+	color:#ececec;
 	transition: 0.8s;
 }
 
