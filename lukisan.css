@@ -452,7 +452,7 @@ p {
 .bottom {
 	display:grid;
 	grid-template-columns:100%;
-            background:#3c4147;
+            background:#414141;
          padding:20px 0;
         
           position:relative;
