@@ -85,14 +85,14 @@ p {
 .intro b {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#333333;
+	color:#414141;
 	display:block;
 	margin-bottom:10px;
 }
 .intro span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#333333;
+	color:#414141;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -131,7 +131,7 @@ p {
 .portfoliotitle h1, .plantitle h1, .printingtitle h1, .introtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#313131;
+	color:#414141;
 	display:block;
 	margin-bottom:10px;
 	font-weight:600;
@@ -139,7 +139,7 @@ p {
 .portfoliotitle span, .plantitle span, .printingtitle span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#313131;
+	color:#414141;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -346,7 +346,7 @@ p {
 .printing a.planorder {
 	display:inline-block;
 	padding:10px 30px;
-	background:#333333;
+	background:#414141;
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:none;
@@ -355,7 +355,7 @@ p {
 }
 .printing a.planorder:hover {
 	background:#ffcd2e;
-	color:#333333;
+	color:#414141;
 	transition: 0.8s;
 }
 
