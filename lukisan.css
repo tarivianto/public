@@ -541,7 +541,7 @@ font-size:12px;
         justify-content:flex-start;
 }
 
-.ket .boks, .ket2 .boks {
+.ket .boks, .ket2 .boks2 {
 	display:grid;
         grid-template-columns:repeat(2, 70% 30%);
 	  text-align:left;
@@ -550,7 +550,7 @@ font-size:12px;
 	}
 
 @media (max-width: 800px) {
-	.ket .boks, .ket2 .boks {
+	.ket .boks, .ket2 .boks2 {
 		grid-template-columns:repeat(1,auto);
 	}
 }
