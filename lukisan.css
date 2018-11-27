@@ -238,7 +238,7 @@ p {
     
 }
 .plan .boksplan .boksplandalam {
-	padding:6em 2em 1.5em 2em;border:1px solid #e6e6e6;width:300px;
+	padding:6em 2em 1.5em 2em;border:1px solid #e6e6e6;width:300px;border-radius:10px;
 }
 
 @media (max-width: 800px)  {
@@ -268,17 +268,18 @@ p {
 .plan a {
 	display:inline-block;
 	padding:10px 30px;
-	background:#ffcd2e;
+	background:#ffffff;
 	color:#414141;
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 	font-size:14px;
-	border:0px solid #ffcd2e;
+	border:2px solid #ffcd2e;
+	border-radius:3px;
 }
 .plan a:hover {
-	background:#414141;
+	background:#ffcd2e;
 	color:#ffffff;
 	transition: 0.8s;
 }
@@ -412,6 +413,7 @@ p {
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 	border:2px solid #414141;
+	border-radius:3px;
 }
 .portfolio a.portfoliomore:hover {
 	background:#414141;
