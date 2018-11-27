@@ -2,7 +2,7 @@ html, body {
         height:100%;
 }
 body {
-        background:#262C32;
+        background:#ffffff;
              color:#ffffff;
         font-family:'open sans', sans-serif;   display:grid;
          
@@ -173,7 +173,7 @@ p {
         z-index:2;
         position:relative;
         text-align:center;
-       color:#1D2127;
+       color:#414141;
         justify-content:space-evenly;
 }
 .layanan .bokslayanan {
@@ -259,7 +259,7 @@ p {
 	display:inline-block;
 	padding:10px 30px;
 	background:#ffcd2e;
-	color:#262C32;
+	color:#414141;
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
@@ -269,7 +269,7 @@ p {
 }
 .plan a:hover {
 	background:#ffffff;
-	color:#262C32;
+	color:#414141;
 	transition: 0.8s;
 }
 
@@ -281,7 +281,7 @@ p {
 
 }
 .printingtitle h1, .printingtitle span {
-	color:#1d2127;
+	color:#414141;
 }
 
 .printing {
@@ -379,7 +379,7 @@ p {
         grid-template-rows:auto;
     margin:0 auto;
         padding:70px 0;
-     background:#1D2127;
+     background:#414141;
       width:100%;
      
         z-index:2;
@@ -404,7 +404,7 @@ p {
 }
 .portfolio a.portfoliomore:hover {
 	background:#ffffff;
-	color:#1d2127;
+	color:#414141;
 	transition: 0.8s;
 }
 
