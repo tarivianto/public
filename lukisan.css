@@ -888,13 +888,13 @@ font-size:12px;
 }
 
 .masthead .entry-header {
-  margin: 7.5em 0 3.5em 0;
+ 
   font-weight: 300;
   line-height: 1.5;
   overflow: auto;
 
   @media screen and (min-width: 640px) {
-    margin: 15.5em 0 7.5em 0;
+   
   }
 }
 
