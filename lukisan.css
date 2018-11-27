@@ -80,7 +80,7 @@ p {
 
 .intro {
 	display:block;margin:0 auto;z-index:2;position:relative;
-	text-align:center;width:100%;padding:100px 4% 50px 4%;margin-top:0;background:#ffffff;
+	text-align:center;width:100%;padding:150px 4% 100px 4%;margin-top:0;background:#ffffff;
 }
 .intro b {
 	font-family:'montserrat',sans-serif;
@@ -214,7 +214,7 @@ p {
 }
 
 .plantitle {
-	display:block;padding:0;margin:0 auto;z-index:2;position:relative;text-align:center;padding:100px 4% 50px 4%;
+	display:block;padding:0;margin:0 auto;z-index:2;position:relative;text-align:center;padding:100px 4% 0px 4%;
 
 }
 
