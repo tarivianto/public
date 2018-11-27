@@ -274,8 +274,8 @@ p {
 	border:0px solid #ffcd2e;
 }
 .plan a:hover {
-	background:#ffffff;
-	color:#414141;
+	background:#414141;
+	color:#ffffff;
 	transition: 0.8s;
 }
 
