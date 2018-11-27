@@ -224,14 +224,14 @@ p {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
-          
+          grid-gap:1em;
       width:100%;
       margin:0 auto;
         z-index:2;
         position:relative;
         text-align:center;
    
-        justify-content:space-evenly;
+        justify-content:center;
 }
 .plan .boksplan {
         padding:3em;
