@@ -240,7 +240,7 @@ p {
 .portfoliotitle h1, .plantitle h1, .printingtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#ffffff;
+
 	display:block;
 	margin-bottom:10px;
 	font-weight:600;
@@ -248,7 +248,7 @@ p {
 .portfoliotitle span, .plantitle span, .printingtitle span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#ffffff;
+	
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -265,7 +265,7 @@ p {
 	font-size:20px;
 	}
 	
-	.bingung span {
+.portfoliotitle span, .plantitle span, .printingtitle span {
 	width:100%;
 	margin:0 auto;
 	font-size:14px;
@@ -322,7 +322,7 @@ p {
 }
 
 .plantitle {
-	display:block;padding:0;margin:0 auto;z-index:2;position:relative;
+	display:block;padding:0;margin:0 auto;z-index:2;position:relative;text-align:center;padding:100px 4% 50px 4%;
 
 }
 
@@ -388,6 +388,14 @@ p {
 
 
 
+
+.printingtitle {
+	display:block;margin:0 auto;z-index:2;position:relative;text-align:center;padding:100px 4% 50px 4%;background:#ffcd2e;
+
+}
+.printingtitle h1, .printingtitle span {
+	color:#1d2127;
+}
 
 .printing {
         display:grid;
