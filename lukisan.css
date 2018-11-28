@@ -33,8 +33,12 @@ p {
         
 }
 
-
-
+.introimg {
+	width:30%;max-width:400px;margin:0 auto;
+}
+@media (max-width: 800px) {
+	.introimg {width:70%;}
+}
 
 .bgutama {
 	width:100%;
