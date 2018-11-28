@@ -402,8 +402,9 @@ h4 {
 
 .bot1 {
 	display:grid;
-	grid-template-columns:20% 20% 20% 40%;
+	grid-template-columns:100%;
 	padding:0 4%;
+	justify-content:center;
 }
 
 
@@ -415,6 +416,7 @@ h4 {
 .bb1, .bb2, .bb3  {
 	max-width:200px;
         width:200px;
+	text-align:center;
 }
 
 .bot1 p {
