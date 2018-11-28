@@ -60,14 +60,14 @@ h4 {
 
 
 .portfoliotitle {
-	display:block;padding:0;margin:0 auto;z-index:2;position:relative;
+	display:block;padding:0;margin:0 auto;z-index:2;position:relative;width:92%;
 }
 
 .portfoliotitle h1, .plantitle h1, .printingtitle h1, .introtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
 	color:#ffffff;
-	display:block;
+
 	margin-bottom:10px;
 	font-weight:700;
 }
