@@ -402,7 +402,7 @@ h4 {
 
 .bot1 {
 	display:grid;
-	grid-template-columns:100%;
+	grid-template-columns:repeat(1,auto);
 	padding:0 4%;
 	justify-content:center;
 }
@@ -413,9 +413,9 @@ h4 {
         vertical-align:sub;
         width:32px !important;
 }
-.bb1, .bb2, .bb3  {
-	max-width:200px;
-        width:200px;
+.bb1 {
+	max-width:100%;
+       
 	text-align:center;
 }
 
@@ -442,7 +442,7 @@ h4 {
 	padding: 0 4%;
 	
 	position: relative !important;
-	color: #808286;
+	color: #999999;
 }
 figcaption {
         text-align:center;
