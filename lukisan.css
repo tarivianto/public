@@ -2,35 +2,26 @@ html, body {
         height:100%;
 }
 body {
-        background:#ffffff;
-             color:#414141;
-        font-family:'open sans', sans-serif;   display:grid;
+        background:#333333;
+        font-size:14px;
          
 }
 
 
 h1{
-	     font-family:'montserrat',sans-serif;
+	     font-family:'montserrat',sans-serif;font-size:30px;
 		
 }
 
 
-h4 {
-	font-family:'open sans', sans-serif;
-}
-
-h1 {
-        font-size:30px;
-	
-}
 h2 {
-        font-size:18px;
+          font-family:'montserrat',sans-serif;font-size:20px;
 }
 h3 {
-        font-size:20px;
+          font-family:'montserrat',sans-serif;font-size:18px;
 }
 h4 {
-        font-size:18px;
+          font-family:'open sans',sans-serif;font-size:16px;
 }
 
 
@@ -58,69 +49,15 @@ p {
 	}
 }
 		
-		
 
-
-
-
-
-
-@media only screen and (max-width: 500px){
-        .welcome {
-                margin-top:35vh;
-        }
-}
-
-
-
-
-.introtitle {
-	display:block;padding-top:50px;margin:0 auto;z-index:2;position:relative;text-align:center;
-}
 
 .intro {
 	display:block;margin:0 auto;z-index:2;position:relative;
-	text-align:center;width:100%;padding:150px 4% 100px 4%;margin-top:0;background:#ffffff;
+	text-align:center;
 }
-.intro b {
-	font-family:'montserrat',sans-serif;
-	font-size:30px;
-	color:#414141;
-	display:block;
-	margin-bottom:10px;
+.intro h1 {
+	font-weight:300;
 }
-.intro span {
-	font-family:'montserrat',serif;
-	font-size:14px;
-	color:#414141;
-	display:block;
-	width:70%;
-	margin:0 auto;
-}
-
-
-
-@media (max-width: 800px)  {
-	.intro {
-		width:100%!important;margin:0 auto;margin-top:0;padding:50px 4%;
-	}
-	.intro b {
-	
-	font-size:20px;
-	}
-	
-	.intro span {
-	width:100%;
-	margin:0 auto;
-	font-size:14px;
-	
-	
-	}
-}
-
-
-
-
 
 
 
@@ -131,15 +68,15 @@ p {
 .portfoliotitle h1, .plantitle h1, .printingtitle h1, .introtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#414141;
+	color:#ffffff;
 	display:block;
 	margin-bottom:10px;
-	font-weight:600;
+	font-weight:700;
 }
 .portfoliotitle span, .plantitle span, .printingtitle span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#414141;
+	color:#ffffff;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -150,13 +87,13 @@ p {
 @media (max-width: 800px)  {
 	
 	.portfoliotitle h1, .plantitle h1, .printingtitle h1 {
-	font-weight:700;
+
 	font-size:20px;
 	}
 	
 .portfoliotitle span, .plantitle span, .printingtitle span {
-	width:100%;
-	margin:0 auto;
+	
+
 	font-size:14px;
 	
 	
@@ -180,7 +117,7 @@ p {
         z-index:2;
         position:relative;
         text-align:center;
-       color:#414141;
+       color:#ffffff;
         justify-content:space-evenly;
 
 }
@@ -242,7 +179,7 @@ p {
     
 }
 .plan .boksplan .boksplandalam {
-	padding:6em 2em 1.5em 2em;border:1px solid #e6e6e6;width:250px;border-radius:10px;
+	padding:6em 2em 1.5em 2em;border:0px solid #e6e6e6;width:250px;border-radius:10px;background:#414141;
 }
 
 @media (max-width: 800px)  {
@@ -253,7 +190,7 @@ p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;
 }
 .plan .boksplan p span {
-	display:block;border-bottom:1px solid #d0d0d0;padding:15px 0;margin:0;
+	display:block;border-bottom:1px solid #a0a0a0;padding:15px 0;margin:0;
 }
 
 
@@ -272,8 +209,8 @@ p {
 .plan a {
 	display:inline-block;
 	padding:10px 30px;
-	background:#ffffff;
-	color:#414141;
+	
+	color:#ffffff;
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
@@ -284,7 +221,7 @@ p {
 }
 .plan a:hover {
 	background:#ffcd2e;
-	color:#ffffff;
+	color:#333333;
 	transition: 0.8s;
 }
 
@@ -292,11 +229,11 @@ p {
 
 
 .printingtitle {
-	display:block;margin:0 auto;z-index:2;position:relative;text-align:center;padding:50px 4%;background:#ffcd2e;
+	display:block;margin:0 auto;z-index:2;position:relative;text-align:center;padding:0 4%;
 
 }
 .printingtitle h1, .printingtitle span {
-	color:#414141;
+	color:#ffffff;
 }
 
 .printing {
@@ -334,9 +271,10 @@ p {
 	font-weight:bold;
 	  font-family:'open sans', sans-serif!important;
 	font-size:18px;
+	color:#ffffff;
 }
 .printing .boksprinting h4.harga {
-       
+       color:#ffffff;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
 }
@@ -379,6 +317,7 @@ p {
 	padding:10px 0;
 	margin:0;
 	font-size:12px!important;
+	color:#ffffff;
 }
 
 .boksprinting h3 {
@@ -411,17 +350,17 @@ p {
 	display:inline-block;
 	padding:10px 30px;
 	font-size:14px;
-	color:#414141;
+	color:#ffffff;
 	font-weight:700;
 	text-decoration:none!important;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
-	border:2px solid #414141;
+	border:2px solid #ffffff;
 	border-radius:3px;
 }
 .portfolio a.portfoliomore:hover {
-	background:#414141;
-	color:#ececec;
+	background:#ffffff;
+	color:#333333;
 	transition: 0.8s;
 }
 
@@ -456,7 +395,7 @@ p {
 .bottom {
 	display:grid;
 	grid-template-columns:100%;
-            background:#414141;
+            background:#4d4d4d;
          padding:20px 0;
         
           position:relative;
