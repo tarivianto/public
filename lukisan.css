@@ -184,8 +184,8 @@ p {
 
 }
 .layanan .bokslayanan {
-       padding:3em;
-    	width:250px;
+     
+    	width:300px;
 
 }
 @media (max-width: 800px)  {
@@ -212,7 +212,7 @@ p {
 }
 .layanan img {
         margin-bottom:1.3em;
-    max-width:140px;
+    max-width:120px;
        
 }
 
