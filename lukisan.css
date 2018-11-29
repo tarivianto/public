@@ -94,7 +94,7 @@ h4 {
 .layanan {
         display:grid;
         grid-template-columns:repeat(3,auto);
-	grid-gap:3em;
+	grid-gap:5em;
         padding:0;
           
       width:100%;
@@ -136,7 +136,7 @@ h4 {
 }
 .layanan img {
         margin-bottom:1.3em;
-    max-width:90px;
+    max-width:70px;
        
 }
 
@@ -151,7 +151,7 @@ h4 {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
-          grid-gap:3em;
+          grid-gap:5em;
       width:100%;
       margin:0 auto;
         z-index:2;
@@ -232,7 +232,7 @@ h4 {
         z-index:2;
         position:relative;
         text-align:center;
-      grid-gap:3em;
+      grid-gap:5em;
        justify-content:center;
 	
 	padding:40px 0!important;
