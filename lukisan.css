@@ -2,7 +2,7 @@ html, body {
         height:100%;
 }
 body {
-        background:#333333;
+        background:#ffffff;
         font-size:14px;
          
 }
@@ -176,7 +176,7 @@ h4 {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;color:#333333!important;
 }
 .plan .boksplan p span {
-	display:block;border-bottom:1px solid #5d5d5d;padding:15px 0;margin:0;
+	display:block;border-bottom:1px solid #f0f0f0;padding:15px 0;margin:0;
 }
 
 
@@ -202,12 +202,12 @@ h4 {
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
 	font-size:14px;
-	border:2px solid #99cc33;
+	border:2px solid #ffcd2e;
 	border-radius:3px;
 }
 .plan a:hover {
-	background:#99cc33;
-	color:#333333;
+	background:#ffcd2e;
+	color:#ffffff;
 	transition: 0.8s;
 }
 
