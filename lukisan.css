@@ -148,6 +148,16 @@ h4 {
 
 
 .plan {
+       
+     
+      margin:0 auto;
+        z-index:2;
+        position:relative;
+
+   background:#ffcd2e;
+ 
+}
+.plan .plangrid {
         display:grid;
         grid-template-columns:repeat(3,auto);
         padding:0;
@@ -160,34 +170,35 @@ h4 {
    background:#ffcd2e;
         justify-content:center;
 }
-.plan .boksplan {
+
+.plan .plangrid .boksplan {
        
       position:relative;
 	top:-400px
 }
-.plan .boksplan .boksplandalam {
+.plan .plangrid .boksplan .boksplandalam {
 	padding:6em 2em 1.5em 2em;border:0px solid #e6e6e6;width:250px;border-radius:10px;background:#ffffff;
 }
 
 @media (max-width: 800px)  {
-	.plan {grid-template-columns:repeat(1,auto);grid-gap:0em;}
-	.plan .boksplan {margin:0 auto;text-align:center;}
+	.plan .plangrid {grid-template-columns:repeat(1,auto);grid-gap:0em;}
+	.plan .plangrid .boksplan {margin:0 auto;text-align:center;}
 }
-.plan .boksplan p {
+.plan .plangrid .boksplan p {
 	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;color:#333333!important;
 }
-.plan .boksplan p span {
+.plan .plangrid .boksplan p span {
 	display:block;border-bottom:1px solid #f0f0f0;padding:15px 0;margin:0;
 }
 
 
-.plan .boksplan h3 {
+.plan .plangrid .boksplan h3 {
      
 	font-family:'open sans',sans-serif!important;color:#333333!important;
 	font-size:20px;
 	
 }
-.plan img {
+.plan .plangrid img {
         margin-bottom:1em;
     max-width:100px;
        
