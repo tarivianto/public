@@ -584,3 +584,211 @@ margin:0 0 0.35em 0;
 }
 
 
+
+
+
+
+
+@import "compass/css3";
+
+@import 'compass';
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* Color Palletes */
+$white: #fff;
+$blue: cornflowerblue;
+$red: indianred;
+$green: mediumaquamarine;
+$purple: mediumpurple;
+$silver: silver;
+$gray: gray;
+$black: #34495e;
+$pure-black: #222;
+
+/*Just change the color e.g. $red or $green or define you color as you like....*/
+$navbar-bg: $red;
+
+/* Base Styles */
+*,*:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: $red;
+	opacity: 1;
+	text-decoration: none;
+	&:hover {
+		opacity: 0.85;
+		text-decoration: underline;
+	}
+}
+
+.content {
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+/* Navigation Styles */
+
+/* Header */
+
+.header {
+position:fixed;
+	width: 100%;
+	background: #333333;
+	height: 50px;
+	line-height: 50px;
+
+}
+
+.wrap {
+/* Changge this with your max-width size */
+	margin: 0 auto;
+}
+
+.logo {
+	font-family: 'montserrat',sans-serif;
+	font-size: 1.5em;
+	margin-left: 1em;
+	a {
+		color: $white;
+		text-decoration: none;
+		opacity: 1;
+		@include transition(all 0.2s ease);
+		&:hover {
+
+		}
+	}
+}
+
+/* Mobile menu */
+#menu-icon {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 1em;
+	color: $white;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 1;
+	padding: 0 0.4em;
+
+	&:hover {
+		opacity: 0.85;
+		text-decoration: none;
+		border: none;
+	}
+}
+
+.navbar {
+	
+	float: none;
+	max-height: 0;
+	overflow: hidden;
+	@include transition(max-height .4s);
+  
+
+	.menu {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+background: #333333;
+   
+      	
+		li {
+			list-style-type: none;
+			display: block;
+       text-align:center;
+		
+			a {
+				display: block;
+				text-decoration: none;
+				color: $white;
+        background: #333333;
+       
+				padding: 0 0.8em;
+				@include transition(all 0.2s ease);
+	
+
+				&:hover {
+					background-color: #ffcd2e;
+					    color:#333333;
+				}
+
+				&.active {
+					background-color: #ffcd2e;
+          color:#333333;
+					
+				}
+			}
+		}
+	}
+}
+
+//increase the max-height if you add more links.
+.expand {
+	max-height: 20em;
+}
+
+@media only screen and (min-width : 800px) {
+ 
+	.wrap {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	
+	.logo {
+		margin-left: 0;
+	}
+
+	.logo, .navbar {
+		display: inline-block;
+	}
+
+	/* Mobile menu icon */
+	#menu-icon {
+		display: none;
+	}
+
+	.navbar {
+		float: right;
+		max-height: none;
+		
+		.menu {
+			
+			li {
+				list-style-type: none;
+				display: inline-block;
+				text-align: center;
+ 
+				
+				a {
+					display: block;
+					border-bottom: 0;
+
+					&:hover {
+					
+					}
+
+					&.active {
+					
+					}
+				}
+			}
+		}
+	}
+}
+
+
