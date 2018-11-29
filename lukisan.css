@@ -28,10 +28,10 @@ h4 {
 
 
 .introimg {
-	width:30%;max-width:300px;margin:0 auto;display:block;
+	width:30%;max-width:100px;margin:0 auto;display:block;
 }
 @media (max-width: 800px) {
-	.introimg {width:70%;}
+	.introimg {width:30%;}
 }
 
 .bgutama {
