@@ -108,7 +108,7 @@ h4 {
 }
 .layanan .bokslayanan {
      
-    	width:300px;
+    	width:250px;
 
 }
 @media (max-width: 800px)  {
@@ -233,7 +233,7 @@ h4 {
         position:relative;
         text-align:center;
       grid-gap:3em;
-       justify-content:space-around;
+       justify-content:center;
 	
 	padding:40px 0!important;
 }
@@ -244,7 +244,7 @@ h4 {
 .printing .boksprinting {
        
 	
-    	width:300px;
+    	width:250px;
 	
         
 }
