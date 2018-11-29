@@ -7,7 +7,7 @@ body {
          
 }
 
-p {color:#ffffff!important;}
+p {color:#333333!important;}
 
 
 h1{
@@ -66,7 +66,7 @@ h4 {
 .portfoliotitle h1, .plantitle h1, .printingtitle h1, .introtitle h1 {
 	font-family:'montserrat',sans-serif;
 	font-size:30px;
-	color:#ffffff;
+	color:#333333;
 
 	margin-bottom:10px;
 	font-weight:700;
@@ -74,7 +74,7 @@ h4 {
 .portfoliotitle span, .plantitle span, .printingtitle span {
 	font-family:'montserrat',serif;
 	font-size:14px;
-	color:#ffffff;
+	color:#333333;
 	display:block;
 	width:70%;
 	margin:0 auto;
@@ -102,7 +102,7 @@ h4 {
         z-index:2;
         position:relative;
         text-align:center;
-       color:#ffffff;
+       color:#333333;
         justify-content:center;
 
 }
@@ -165,7 +165,7 @@ h4 {
     
 }
 .plan .boksplan .boksplandalam {
-	padding:6em 2em 1.5em 2em;border:0px solid #e6e6e6;width:250px;border-radius:10px;background:#414141;
+	padding:6em 2em 1.5em 2em;border:0px solid #e6e6e6;width:250px;border-radius:10px;background:#ffffff;
 }
 
 @media (max-width: 800px)  {
@@ -173,7 +173,7 @@ h4 {
 	.plan .boksplan {margin:0 auto;text-align:center;}
 }
 .plan .boksplan p {
-	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;color:#ffffff!important;
+	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;color:#333333!important;
 }
 .plan .boksplan p span {
 	display:block;border-bottom:1px solid #5d5d5d;padding:15px 0;margin:0;
@@ -182,7 +182,7 @@ h4 {
 
 .plan .boksplan h3 {
      
-	font-family:'open sans',sans-serif!important;color:#ffffff!important;
+	font-family:'open sans',sans-serif!important;color:#333333!important;
 	font-size:20px;
 	
 }
@@ -196,7 +196,7 @@ h4 {
 	display:inline-block;
 	padding:10px 30px;
 	
-	color:#ffffff;
+	color:#333333;
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
@@ -219,13 +219,13 @@ h4 {
 
 }
 .printingtitle h1, .printingtitle span {
-	color:#ffffff;
+	color:#333333;
 }
 
 .printing {
         display:grid;
         grid-template-columns:repeat(3,auto);
-       
+       background:#ffcd2e;
          
       width:100%;
       margin:0 auto;
@@ -257,10 +257,10 @@ h4 {
 	font-weight:bold;
 	  font-family:'open sans', sans-serif!important;
 	font-size:18px;
-	color:#ffffff;
+	color:#333333;
 }
 .printing .boksprinting h4.harga {
-       color:#ffffff;
+       color:#333333;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
 	margin-top:-8px;
@@ -281,7 +281,7 @@ h4 {
 	display:inline-block;
 	padding:10px 30px;
 	background:#414141;
-	color:#ffffff;
+	color:#333333;
 	font-weight:bold;
 	text-decoration:none;
 	margin-top:20px;
@@ -300,11 +300,11 @@ h4 {
 	font-family:'open sans',sans-serif;
 	font-weight:300;
 	display:block;
-	border-top:2px solid #99cc33;
+	border-top:2px solid #333333;
 	padding:10px 0;
 	margin:0;
 	font-size:12px!important;
-	color:#ffffff;
+	color:#333333;
 }
 
 .boksprinting h3 {
@@ -337,16 +337,16 @@ h4 {
 	display:inline-block;
 	padding:10px 30px;
 	font-size:14px;
-	color:#ffffff;
+	color:#333333;
 	font-weight:700;
 	text-decoration:none!important;
 	margin-top:20px;
 	  font-family: 'open sans', serif !important;
-	border:2px solid #ffffff;
+	border:2px solid #333333;
 	border-radius:3px;
 }
 .portfolio a.portfoliomore:hover {
-	background:#ffffff;
+	background:#333333;
 	color:#333333;
 	transition: 0.8s;
 }
@@ -382,7 +382,7 @@ h4 {
 .bottom {
 	display:grid;
 	grid-template-columns:100%;
-            background:#4d4d4d;
+            background:#333333;
          padding:20px 0;
         
           position:relative;
@@ -469,7 +469,7 @@ font-size:12px;
         z-index:2;
         position:relative;
         text-align:left;
-       color:#ffffff;
+       color:#333333;
         justify-content:flex-start;
 }
 @media (max-width: 800px) {
@@ -565,7 +565,7 @@ font-size:12px;
   font-weight: 600;
   margin: 0 0 0.25em 0;
   padding:0 4%;
-	color:#ffffff;
+	color:#333333;
   @media screen and (min-width: 640px) {
     max-width: 650px;
     font-size: 4em;
@@ -580,7 +580,7 @@ font-weight:300;
  padding:0 4%;
 margin:0 0 0.35em 0;
   font-size: 1.5em;
-	color:#ffffff;
+	color:#333333;
 }
 
 
@@ -597,8 +597,8 @@ margin:0 0 0.35em 0;
 	padding:1.5em
 }
 .ketentuan h3.desain {
-	font-family:'open sans',sans-serif!important;color:#ffffff!important;
+	font-family:'open sans',sans-serif!important;color:#333333!important;
 	font-size:20px;
 }
-.ketentuan ul li {font-weight:300!important;font-size:14px!important;font-family:'open sans',sans-serif!important;color:#ffffff!important;
+.ketentuan ul li {font-weight:300!important;font-size:14px!important;font-family:'open sans',sans-serif!important;color:#333333!important;
 }
