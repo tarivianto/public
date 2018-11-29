@@ -11,7 +11,7 @@ p {color:#333333!important;}
 
 
 h1{
-	     font-family:'montserrat',sans-serif!important;font-size:30px;padding:0;color:#333333!important;
+	     font-family:'montserrat',sans-serif!important;font-size:25px;padding:0;color:#333333!important;font-weight:600;
 		
 }
 
@@ -387,7 +387,7 @@ h4 {
 .bottom {
 	display:grid;
 	grid-template-columns:100%;
-            background:#333333;
+            background:#f4f4f4;
          padding:20px 0;
         
           position:relative;
