@@ -596,4 +596,5 @@ margin:0 0 0.35em 0;
 	background:#414141;
 	padding:1.5em
 }
-.ketentuan h3, .ketentuan p {color:#ffffff;}
+.ketentuan h4, .ketentuan p {color:#ffffff;}
+.ketentuan p ul li {color:#ffffff;font-family:'open sans',sans-serif;font-size:14px;font-weight:12px;}
