@@ -11,7 +11,7 @@ p {color:#333333!important;}
 
 
 h1{
-	     font-family:'montserrat',sans-serif!important;font-size:30px;padding:0;
+	     font-family:'montserrat',sans-serif!important;font-size:30px;padding:0;color:#333333!important;
 		
 }
 
@@ -235,6 +235,17 @@ h4 {
 }
 
 .printing {
+      
+       background:#ffcd2e;
+         
+      width:100%;
+      margin:0 auto;
+        z-index:2;
+        position:relative;
+        
+}
+
+.printinggrid {
         display:grid;
         grid-template-columns:repeat(3,auto);
        background:#ffcd2e;
@@ -249,11 +260,12 @@ h4 {
 	
 	padding:40px 0!important;
 }
+
 @media (max-width: 800px) {
-	.printing {  grid-template-columns:repeat(1,auto);}
+	.printinggrid {  grid-template-columns:repeat(1,auto);}
 }
 
-.printing .boksprinting {
+.printing .printinggrid .boksprinting {
        
 	
     	width:250px;
@@ -262,16 +274,16 @@ h4 {
 }
 
 @media (max-width: 800px)  {
-	.printing .boksprinting {margin:0 auto;text-align:center;}
+	.printing .printinggrid .boksprinting {margin:0 auto;text-align:center;}
 }
 
-.printing .boksprinting h3.judul {
+.printing .printinggrid .boksprinting h3.judul {
 	font-weight:bold;
 	  font-family:'open sans', sans-serif!important;
 	font-size:18px;
 	color:#333333;
 }
-.printing .boksprinting h4.harga {
+.printing .printinggrid .boksprinting h4.harga {
        color:#333333;
 	font-size:15px!important;
 	  font-family:'open sans', sans-serif!important;
@@ -279,31 +291,12 @@ h4 {
 }
 
 @media (max-width: 800px) {
-	.printing .boksprinting h3.judul {font-size:16px;}
-	.printing .boksprinting h3.harga {font-size:14px;}
+	.printing .printinggrid .boksprinting h3.judul {font-size:16px;}
+	.printing .printinggrid .boksprinting h3.harga {font-size:14px;}
 }
 
-.printing img {
-        margin-bottom:1em;
-    max-width:100px;
-       
-}
 
-.printing a.planorder {
-	display:inline-block;
-	padding:10px 30px;
-	background:#414141;
-	color:#333333;
-	font-weight:bold;
-	text-decoration:none;
-	margin-top:20px;
-	  font-family: 'roboto slab', serif !important;
-}
-.printing a.planorder:hover {
-	background:#ffcd2e;
-	color:#414141;
-	transition: 0.8s;
-}
+
 
 .printing p {
 	display:block;
@@ -319,7 +312,7 @@ h4 {
 	color:#333333;
 }
 
-.boksprinting h3 {
+.printinggrid .boksprinting h3 {
 	font-family:'montserrat',sans-serif;
 	font-weight:600;
 }
