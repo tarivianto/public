@@ -205,7 +205,7 @@ h4 {
        
 }
 
-.plan .plangrid a.tombolorder {
+.plan .plangrid .boksplan .boksplandalam a.tombolorder {
 	display:inline-block;
 	padding:10px 30px;
 	
@@ -218,7 +218,7 @@ h4 {
 	border:2px solid #ffcd2e;
 	border-radius:3px;
 }
-.plan .plangrid a.tombolorder:hover {
+.plan .plangrid .boksplan .boksplandalam a.tombolorder:hover {
 	background:#ffcd2e;
 	color:#ffffff;
 	transition: 0.8s;
