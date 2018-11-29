@@ -1,6 +1,6 @@
 $(function(){
    setInterval(function(){
-      $(".slideshow1 ul").animate({marginLeft:-250},800,function(){
+      $(".slideshow1 ul").animate({marginLeft:-20vw},800,function(){
          $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
       })
    }, 3500);
@@ -11,7 +11,7 @@ $(function(){
 $(function(){
   var timeSlide;
   function goSlide() {
-      $(".slideshow2 ul").animate({marginLeft:-250},800,function(){
+      $(".slideshow2 ul").animate({marginLeft:-20vw},800,function(){
         $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
       })
   }
