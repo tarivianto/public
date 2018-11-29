@@ -506,7 +506,7 @@ font-size:12px;
 }
 
 	.slideshow {  
-       width: 20%;  
+       width: 20vw;  
       
        margin: 3em auto;
        overflow: hidden;
