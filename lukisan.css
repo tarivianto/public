@@ -262,7 +262,7 @@ h4 {
 }
 
 @media (max-width: 800px) {
-	.printinggrid {  grid-template-columns:repeat(1,auto);}
+	.printing .printinggrid {  grid-template-columns:repeat(1,auto);}
 }
 
 .printing .printinggrid .boksprinting {
