@@ -14,7 +14,7 @@ ul li { font-size:14px;}
 h1,h2,h3,h4 {     font-family:'montserrat', sans-serif!important;}
 
 h1{
-	 font-size:30px!important;font-weight:300!important;
+	 font-size:30px!important;font-weight:400!important;
 			
 }
 
@@ -499,15 +499,8 @@ margin:0 0 0.35em 0;
 .ketentuan {
 	display:grid;
 	grid-template-columns:repeat(1,auto);
-	margin:0 auto 100px auto;
+
 	width:70%;
-	max-width:500px;
-	background:#414141;
-	padding:1.5em
-}
-.ketentuan h3.desain {
-	color:#333333!important;
-	}
-.ketentuan ul li {font-weight:300!important;color:#333333!important;
+	max-width:500px;		
 }
 
