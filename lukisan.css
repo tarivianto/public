@@ -145,7 +145,7 @@ h4 {
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
-	 
+	 font-family:'montserrat', sans-serif!important;font-weight:bold!important;
 	border:2px solid #ffcd2e;
 	border-radius:3px;
 }
@@ -214,7 +214,7 @@ h4 {
 	display:block;
 }
 .printing span {
-
+	font-size:12px;
 	display:block;
 	border-top:1px dotted #333333;
 	padding:10px 0;
@@ -254,6 +254,7 @@ h4 {
 	color:#333333;
 	font-weight:700;
 	text-decoration:none!important;
+	 font-family:'montserrat', sans-serif!important;font-weight:bold!important;
 	margin-top:20px;
 	border:2px solid #333333;
 	border-radius:3px;
@@ -509,3 +510,4 @@ margin:0 0 0.35em 0;
 	}
 .ketentuan ul li {font-weight:300!important;color:#333333!important;
 }
+
