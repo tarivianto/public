@@ -22,7 +22,7 @@ h1{
 
 
 h2 {
-        font-size:16px;padding:0;font-weight:bold;
+        font-size:16px!important;font-weight:bold!important;
 }
 h3 {
         font-size:18px;padding:0;
