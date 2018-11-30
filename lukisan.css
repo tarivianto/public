@@ -9,7 +9,7 @@ body {
 
 p {color:#333333;}
 
-h1,h2,h3,h4 {     font-family:'raleway', sans-serif;font-weight:bold; }
+h1,h2,h3,h4 {     font-family:'raleway', sans-serif!important;}
 
 h1{
 	 font-size:30px;
