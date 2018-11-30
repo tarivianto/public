@@ -501,9 +501,13 @@ margin:0 0 0.35em 0;
 	grid-template-columns:repeat(1,auto);
 
 }
+
 .ketentuan .boksketentuan {
-		width:92%;
+		width:70%;
 	max-width:500px;
 	margin:0 auto;
 
+}
+@media (max-width:800px) {
+	.ketentuan .boksketentuan {width:92%;}
 }
