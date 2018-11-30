@@ -4,7 +4,7 @@ html, body {
 body {
         background:#ffffff;
       color:#333333;
-       
+      font-family:'montserrat', sans-serif!important;
 }
 
 p {color:#333333;}
