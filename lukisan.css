@@ -19,7 +19,7 @@ h1{
 
 
 h2 {
-        font-size:20px;padding:0;
+        font-size:18px;padding:0;
 }
 h3 {
         font-size:18px;padding:0;
@@ -67,7 +67,6 @@ h4 {
 }
 
 .layanan .bokslayanan span {
-	font-family:'open sans',sans-serif;
 	font-size:14px;
 	margin-top:5px;
 
@@ -143,8 +142,7 @@ h4 {
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
-	  font-family: 'open sans',sans-serif;
-	font-size:14px;
+	  font-size:14px;
 	border:2px solid #ffcd2e;
 	border-radius:3px;
 }
@@ -204,15 +202,13 @@ h4 {
 
 .printing .printinggrid .boksprinting h3.judul {
 	font-weight:bold;
-	  font-family:'open sans', sans-serif!important;
-	font-size:18px;
+	  font-size:18px;
 	color:#333333;
 }
 .printing .printinggrid .boksprinting h4.harga {
        color:#333333;
 	font-size:15px!important;
-	  font-family:'open sans', sans-serif!important;
-	margin-top:-8px;
+	 	margin-top:-8px;
 }
 
 @media (max-width: 800px) {
@@ -227,8 +223,7 @@ h4 {
 	display:block;
 }
 .printing span {
-	font-family:'open sans',sans-serif;
-	font-weight:300;
+font-weight:300;
 	display:block;
 	border-top:2px solid #333333;
 	padding:10px 0;
@@ -271,7 +266,6 @@ h4 {
 	font-weight:700;
 	text-decoration:none!important;
 	margin-top:20px;
-	  font-family: 'open sans', sans-serif;
 	border:2px solid #333333;
 	border-radius:3px;
 }
@@ -388,7 +382,7 @@ figcaption h3 {
 	display:grid;
         grid-template-columns:repeat(1,auto);
         padding:0;
-	font-family:'open sans', sans-serif!important;
+	
 font-size:12px;
  font-weight:300;
          
@@ -525,8 +519,8 @@ margin:0 0 0.35em 0;
 	padding:1.5em
 }
 .ketentuan h3.desain {
-	font-family:'open sans',sans-serif!important;color:#333333!important;
+	color:#333333!important;
 	font-size:20px;
 }
-.ketentuan ul li {font-weight:300!important;font-size:14px!important;font-family:'open sans',sans-serif!important;color:#333333!important;
+.ketentuan ul li {font-weight:300!important;font-size:14px!important;color:#333333!important;
 }
