@@ -3,28 +3,29 @@ html, body {
 }
 body {
         background:#ffffff;
-        font-size:14px;
+      color:#333333;
          
 }
 
-p {color:#333333!important;}
+p {color:#333333;font-family:'open sans',sans-serif;}
 
+h1,h2,h3,h4 {     font-family:'montserrat',sans-serif; }
 
 h1{
-	     font-family:'montserrat',sans-serif!important;font-size:30px!important;
-	padding:0;color:#333333!important;font-weight:600!important;
+	 font-size:30px;
+	padding:0;color:#333333;font-weight:600;
 		
 }
 
 
 h2 {
-          font-family:'montserrat',sans-serif;font-size:20px;padding:0;
+        font-size:20px;padding:0;
 }
 h3 {
-          font-family:'montserrat',sans-serif;font-size:18px;padding:0;
+        font-size:18px;padding:0;
 }
 h4 {
-          font-family:'open sans',sans-serif;font-size:16px;padding:0;
+         font-size:16px;padding:0;
 }
 
 
@@ -34,59 +35,6 @@ h4 {
 @media (max-width: 800px) {
 	.introimg {width:30%;}
 }
-
-.bgutama {
-	width:100%;
-	margin-top:-10vw;
-}
-@media (max-width: 800px) {
-	.bgutama {
-		
-	
-		margin-top:40px;
-		margin:0 auto;
-	}
-}
-		
-
-
-.intro {
-	display:block;margin:0 auto;z-index:2;position:relative;
-	text-align:center;
-}
-.intro h1 {
-	font-weight:300;
-}
-
-
-
-.portfoliotitle {
-	display:block;padding:0;margin:0 auto;z-index:2;position:relative;width:92%;
-}
-
-.portfoliotitle h1, .plantitle h1, .printingtitle h1, .introtitle h1 {
-	font-family:'montserrat',sans-serif;
-	font-size:30px;
-	color:#333333;
-
-	margin-bottom:10px;
-	font-weight:700;
-}
-.portfoliotitle span, .plantitle span, .printingtitle span {
-	font-family:'montserrat',serif;
-	font-size:14px;
-	color:#333333;
-	display:block;
-	width:70%;
-	margin:0 auto;
-}
-
-
-
-
-
-
-
 
 
 
@@ -103,7 +51,7 @@ h4 {
         z-index:2;
         position:relative;
         text-align:center;
-       color:#333333;
+    
         justify-content:center;
 
 }
@@ -117,34 +65,22 @@ h4 {
         grid-template-columns:repeat(1,auto);}
 	.layanan .bokslayanan {margin:0 auto;text-align:center;}
 }
-.layanan .bokslayanan b {
-	font-family:'montserrat',sans-serif;
-	font-size:18px!important;
-	
-}
-.layanan .bokslayanan p {
+
+.layanan .bokslayanan span {
 	font-family:'open sans',sans-serif;
 	font-size:14px;
 	margin-top:5px;
-	font-weight:300;
-}
-@media (max-width: 800px)  {
-	.layanan .bokslayanan p {font-size:14px!important;margin-top:5px;}
+
 }
 
-@media (max-width: 800px)  {
-	.layanan .bokslayanan b {font-size:18px!important;}
-}
+
 .layanan img {
         margin-bottom:1.3em;
     max-width:70px;
        
 }
 
-.plantitle {
-	display:block;padding:0;margin:0 auto;z-index:2;position:relative;text-align:center;padding:100px 4% 0px 4%;
 
-}
 
 
 
@@ -186,19 +122,13 @@ h4 {
 	.plan .plangrid .boksplan {margin:0 auto;text-align:center;}
 }
 .plan .plangrid .boksplan p {
-	font-weight:300;font-size:14px;font-family:'open sans',sans-serif;color:#333333!important;
+	font-weight:300;font-size:14px;
 }
 .plan .plangrid .boksplan p span {
 	display:block;border-bottom:1px solid #f0f0f0;padding:15px 0;margin:0;
 }
 
 
-.plan .plangrid .boksplan h3 {
-     
-	font-family:'open sans',sans-serif!important;color:#333333!important;
-	font-size:20px;
-	
-}
 .plan .plangrid img {
         margin-bottom:1em;
     max-width:100px;
@@ -213,7 +143,7 @@ h4 {
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
-	  font-family: 'open sans', serif !important;
+	  font-family: 'open sans',sans-serif;
 	font-size:14px;
 	border:2px solid #ffcd2e;
 	border-radius:3px;
@@ -227,13 +157,7 @@ h4 {
 
 
 
-.printingtitle {
-	display:block;margin:0 auto;z-index:2;position:relative;text-align:center;padding:0 4%;
 
-}
-.printingtitle h1, .printingtitle span {
-	color:#333333;
-}
 
 .printing {
       
@@ -314,7 +238,7 @@ h4 {
 }
 
 .printinggrid .boksprinting h3 {
-	font-family:'montserrat',sans-serif;
+
 	font-weight:600;
 }
 
@@ -347,7 +271,7 @@ h4 {
 	font-weight:700;
 	text-decoration:none!important;
 	margin-top:20px;
-	  font-family: 'open sans', serif !important;
+	  font-family: 'open sans', sans-serif;
 	border:2px solid #333333;
 	border-radius:3px;
 }
@@ -398,7 +322,7 @@ h4 {
                
 }
 .bottom h1, .bottom h2, .bottom h3, .bottom h4, .bottom a, .bottom a:hover, .bottom {
-        color:#999999;font-family:'montserrat',sans-serif;
+        color:#999999;
 }
 .bottom h4 {
 	font-size:16px;font-weight:bold;
@@ -427,9 +351,7 @@ h4 {
 	text-align:center;
 }
 
-.bot1 p {
-	font-family:'open sans',sans-serif;font-size:14px;
-}
+
 
 .bb2 a:hover {
 	text-decoration:underline;
