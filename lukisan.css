@@ -555,8 +555,8 @@ margin:0 0 0.35em 0;
   background:#ffffff;
   text-align:center;
 }
-.menu > li a {
-  color:#333333;
+.topnav .menu > li a {
+  color:#333333!important;
   text-decoration:none;
   display:block!important;
   width:100%;
