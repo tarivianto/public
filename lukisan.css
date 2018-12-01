@@ -520,6 +520,8 @@ margin:0 0 0.35em 0;
 
 
 
+
+
 * {
  
   box-sizing: border-box;
@@ -537,7 +539,6 @@ margin:0 0 0.35em 0;
   height: 50px;
   padding: 1em;
 	position:fixed;width:100%;top:0;
-	z-index:999;
 }
 
 .menu {
@@ -556,7 +557,7 @@ margin:0 0 0.35em 0;
 .menu > li a {
   color:#333333;
   text-decoration:none;
-  display:block;
+  display:block!important;
   width:100%;
 }
 .menu-button-container {
@@ -609,6 +610,21 @@ margin:0 0 0.35em 0;
   transform: rotate(-405deg);
 }
 
+  #menu-toggle ~ .menu li a {
+  color:transparent;
+  }
+  #menu-toggle:checked ~ .menu li a {
+      color:#333333;display:block!important;
+  }
+   #menu-toggle:checked ~ .menu li:hover {
+      background:#f4f4f4;
+
+  }
+
+
+
+
+
 @media (max-width: 800px) {
   .menu-button-container {
     display: flex;
@@ -624,20 +640,15 @@ margin:0 0 0.35em 0;
     align-items: center;
   }
 	.menu > li {
-		padding:20px 0;	
+	
 	}
   #menu-toggle {
-   color:red;
+  
   }
   .menu-button-container .menu-button, .menu-button-container .menu-button:before, .menu-button-container .menu-button:after {
     background-color:#333333;
   }
-  #menu-toggle ~ .menu li a {
-  color:transparent;
-  }
-  #menu-toggle:checked ~ .menu li a {
-      color:#333333;
-  }
+
   #menu-toggle ~ .menu li {
     height: 0;
     
@@ -650,7 +661,6 @@ margin:0 0 0.35em 0;
     border-bottom: 1px solid #e4e4e4;
     height: 2.5em;
     padding: 30px 0 50px 0;
-	  background:#f4f4f4;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   .menu > li {
