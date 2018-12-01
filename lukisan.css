@@ -532,14 +532,14 @@ margin:0 0 0.35em 0;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
+  background: #ffffff;
   /*background: linear-gradient(to left, #f46b45, #eea849);
    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
   padding: 1em;
 	position:fixed;width:100%;top:0;
-	z-index:999;
+	z-index:30;
 }
 
 .menu {
@@ -557,9 +557,10 @@ margin:0 0 0.35em 0;
 }
 .topnav .menu > li a {
   color:#333333!important;
-  text-decoration:none;
+  text-decoration:none!important;
   display:block!important;
   width:100%;
+	z-index:31;
 }
 .menu-button-container {
   display: none;
@@ -611,12 +612,7 @@ margin:0 0 0.35em 0;
   transform: rotate(-405deg);
 }
 
-  #menu-toggle ~ .menu li a {
-  color:transparent;
-  }
-  #menu-toggle:checked ~ .menu li a {
-      color:#333333;display:block!important;
-  }
+
    #menu-toggle:checked ~ .menu li:hover {
       background:#f4f4f4;
 
@@ -646,6 +642,12 @@ margin:0 0 0.35em 0;
   #menu-toggle {
   
   }
+	
+	  #menu-toggle ~ .menu li a {
+  color:transparent;
+  }
+
+	
   .menu-button-container .menu-button, .menu-button-container .menu-button:before, .menu-button-container .menu-button:after {
     background-color:#333333;
   }
