@@ -651,6 +651,9 @@ transition:1.5s;
     color:#333333;
 display:block;
   }
+	 #menu-toggle:checked ~ .menu li a:active {
+		 .menu li {padding:0;color:transparent;}
+  }
 
 	
   .menu-button-container .menu-button, .menu-button-container .menu-button:before, .menu-button-container .menu-button:after {
