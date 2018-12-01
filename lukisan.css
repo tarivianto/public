@@ -536,6 +536,7 @@ margin:0 0 0.35em 0;
   color: #FFF;
   height: 50px;
   padding: 1em;
+	position:fixed;
 }
 
 .menu {
