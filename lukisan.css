@@ -651,7 +651,7 @@ transition:1.5s;
     color:#333333;
 display:block;
   }
-	 #menu-toggle:checked ~ .menu li a:active {
+	 #menu-toggle:checked ~ .menu li a:active,  #menu-toggle ~ .menu li a:active  {
 		 .menu li {padding:0;color:transparent;}
   }
 
