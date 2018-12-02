@@ -3,11 +3,11 @@ html, body {
 }
 body {
         background:#ffffff;
-      color:#333333;
+      color:#666666;
       font-family:'montserrat', sans-serif!important;
 }
 
-p {color:#333333;}
+p {color:#666666;}
 
 ul li { font-size:14px;}
 
@@ -141,7 +141,7 @@ h4 {
 	display:inline-block;
 	padding:10px 30px;
 	
-	color:#333333;
+	color:#666666;
 	font-weight:700;
 	text-decoration:none;
 	margin-top:20px;
@@ -216,7 +216,7 @@ h4 {
 .printing span {
 	font-size:12px;
 	display:block;
-	border-top:1px dotted #333333;
+	border-top:1px dotted #666666;
 	padding:10px 0;
 	margin:0;
 
@@ -251,16 +251,16 @@ h4 {
 .portfolio a.portfoliomore {
 	display:inline-block;
 	padding:10px 30px;
-	color:#333333;
+	color:#666666;
 	font-weight:700;
 	text-decoration:none!important;
 	 font-family:'montserrat', sans-serif!important;font-weight:bold!important;
 	margin-top:20px;
-	border:2px solid #333333;
+	border:2px solid #666666;
 	border-radius:3px;
 }
 .portfolio a.portfoliomore:hover {
-	background:#333333;
+	background:#666666;
 	color:#f4f4f4;
 	transition: 0.8s;
 }
@@ -379,7 +379,7 @@ figcaption h3 {
         z-index:2;
         position:relative;
         text-align:left;
-       color:#333333;
+       color:#666666;
         justify-content:flex-start;
 }
 @media (max-width: 800px) {
@@ -474,7 +474,7 @@ figcaption h3 {
   font-weight: 600;
   margin: 0 0 0.25em 0;
   padding:0 4%;
-	color:#333333;
+	color:#666666;
   @media screen and (min-width: 640px) {
     max-width: 650px;
     font-size: 4em;
@@ -489,7 +489,7 @@ font-weight:300;
  padding:0 4%;
 margin:0 0 0.35em 0;
   font-size: 1.5em;
-	color:#333333;
+	color:#666666;
 }
 
 
@@ -556,7 +556,7 @@ margin:0 0 0.35em 0;
   text-align:center;
 }
 .menu > li a {
-  color:#333333;
+  color:#666666;
   text-decoration:none;
 
 }
@@ -648,7 +648,7 @@ margin:0 0 0.35em 0;
 transition:1.5s;
   }
   #menu-toggle:checked ~ .menu  li a {
-    color:#333333;
+    color:#666666;
 display:block;
   }
 	 #menu-toggle:checked ~ .menu li a:active,  #menu-toggle ~ .menu li a:active  {
@@ -657,7 +657,7 @@ display:block;
 
 	
   .menu-button-container .menu-button, .menu-button-container .menu-button:before, .menu-button-container .menu-button:after {
-    background-color:#333333;
+    background-color:#666666;
   }
 
   #menu-toggle ~ .menu li {
