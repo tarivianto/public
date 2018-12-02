@@ -43,6 +43,40 @@ h4 {
 
 
 
+.pengantar {
+        display:grid;
+        grid-template-columns:repeat(2, 60% 30%);
+	grid-gap:4em;
+        padding:0;
+          
+      width:100%;
+      margin:0 auto;
+        z-index:2;
+        position:relative;
+        text-align:center;
+    
+        justify-content:center;
+
+}
+.pengantar .tekspengantar {
+	text-align:left;
+}
+.pengantar .img {
+	width:100%;
+}
+
+@media (max-width:800px) {
+	.pengantar {
+		grid-template-columns:repeat(1,auto);
+		width:92%;
+		margin:0 auto;
+	}
+}
+
+
+
+
+
 .layanan {
         display:grid;
         grid-template-columns:repeat(3,auto);
