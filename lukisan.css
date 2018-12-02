@@ -45,7 +45,7 @@ h4 {
 
 .pengantar {
         display:grid;
-        grid-template-columns:repeat(2, 60% 30%);
+        grid-template-columns:60% 30%;
 	grid-gap:4em;
         padding:0;
           
@@ -53,19 +53,18 @@ h4 {
       margin:0 auto;
         z-index:2;
         position:relative;
-        text-align:center;
-    
+     
         justify-content:center;
 
 }
 .pengantar .tekspengantar {
 	text-align:left;
 }
-.pengantar img {
+.pengantar img.imgpengantar {
 	width:100%;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
 	.pengantar {
 		grid-template-columns:repeat(1,auto);
 		width:92%;
