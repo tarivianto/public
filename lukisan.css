@@ -210,7 +210,7 @@ h4 {
 .printinggrid {
         display:grid;
         grid-template-columns:repeat(3,auto);
-       background:#ffcd2e;
+     
          
       width:100%;
       margin:0 auto;
