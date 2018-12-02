@@ -671,9 +671,10 @@ margin:0 0 0.35em 0;
     right: 0;
     flex-direction: column;
     width: 60%;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 	  border:1px solid #f4f4f4;
+	  text-align:left;
   }
 
  
