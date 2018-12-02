@@ -691,6 +691,7 @@ transition:1.5s;
 	  text-align:left;
 display:block!important;
 	  padding:30px 5px;
+	    transition: height 700ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 	 #menu-toggle:checked ~ .menu li a:active,  #menu-toggle ~ .menu li a:active  {
 		 .menu li {padding:0;color:transparent;}
