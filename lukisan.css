@@ -50,18 +50,20 @@ h4 {
         padding:0;
           
       width:100%;
+	max-width:850px;
       margin:0 auto;
         z-index:2;
         position:relative;
      
         justify-content:center;
+	margin-top:100px;
 
 }
 .pengantar .tekspengantar {
 	text-align:left;
 }
 .pengantar img.imgpengantar {
-	width:100%;
+	width:100%;position:relative;top:50px;
 }
 
 @media (max-width: 800px) {
