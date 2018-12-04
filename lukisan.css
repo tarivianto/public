@@ -128,8 +128,6 @@ h4 {
       margin:0 auto;
         z-index:2;
         position:relative;
-
-   background:#ffcd2e;
  
 }
 .plan .plangrid {
@@ -142,7 +140,6 @@ h4 {
         z-index:2;
         position:relative;
         text-align:center;
-   background:#ffcd2e;
         justify-content:center;
 }
 
@@ -152,7 +149,7 @@ h4 {
 	top:-400px
 }
 .plan .plangrid .boksplan .boksplandalam {
-	padding:6em 2em 1.5em 2em;border:0px solid #e6e6e6;width:250px;border-radius:10px;background:#ffffff;
+	padding:6em 2em 1.5em 2em;border:1px solid #e6e6e6;width:250px;border-radius:10px;background:#ffffff;
 }
 
 @media (max-width: 800px)  {
@@ -220,7 +217,7 @@ h4 {
       grid-gap:4em;
        justify-content:center;
 	
-	padding:40px 0!important;
+	padding:40px 0;
 }
 
 @media (max-width: 800px) {
